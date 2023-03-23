@@ -78,11 +78,11 @@
             <h4 class="mb-3">Your Information</h4>
             <div class="row g-5">
                 <div class="col-md-7 col-lg-8">
-                    <form class="needs-validation" novalidate>
+                    <form class="needs-validation" novalidate action="duomail.php" method="POST">
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <label for="firstName" class="form-label">Discord Username</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="discordname" placeholder="Username#0000" value="" name="discord_name" required>
                                 <div class="invalid-feedback">
                                     A Valid Discord username is required.
                                 </div>
@@ -90,15 +90,15 @@
 
                             <div class="col-sm-6">
                                 <label for="lastName" class="form-label">Tarkov Name</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="tarkovname" placeholder="" value="" name="tarkov_name" required>
                                 <div class="invalid-feedback">
                                     A Valid Tarkov name is required.
                                 </div>
                             </div>
-
+        
                             <div class="col-sm-12">
                                 <label for="lastName" class="form-label">Kick Link</label>
-                                <input type="text" class="form-control" id="" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="discordname" placeholder="https://Kick.com/Username" value="" name="kick_link" required>
                                 <div class="invalid-feedback">
                                     A Valid Kick link is required.
                                 </div>
@@ -106,7 +106,7 @@
 
                             <div class="col-sm-6">
                                 <label for="lastName" class="form-label">PMC Level</label>
-                                <input type="text" class="form-control" id="" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="pmcname" placeholder="15" value="" name="PMC_level" required>
                                 <div class="invalid-feedback">
                                     A Valid PMC level is required.
                                 </div>
@@ -114,7 +114,7 @@
 
                             <div class="col-sm-6">
                                 <label for="lastName" class="form-label">K/D Ratio</label>
-                                <input type="text" class="form-control" id="" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="kd" placeholder="1.50" value="" name="kd" required>
                                 <div class="invalid-feedback">
                                     A Valid K/D ratio is required.
                                 </div>
@@ -125,7 +125,7 @@
 
                             <div class="col-sm-6">
                                 <label for="firstName" class="form-label">Team Name</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="teamname" placeholder="" value="" name="team_name" required>
                                 <div class="invalid-feedback">
                                     A Valid team name is required.
                                 </div>
@@ -133,7 +133,7 @@
 
                             <div class="col-6">
                                 <label for="firstName" class="form-label">Team Captain</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="teamcaptain" placeholder="" value="" name="team_captain" required>
                                 <div class="invalid-feedback">
                                     A Valid team captain name is required.
                                 </div>
@@ -141,7 +141,7 @@
 
                             <div class="col-12">
                                 <label for="firstName" class="form-label">Team Member 1</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="teammember1" placeholder="" value="" name="team_member1" required>
                                 <div class="invalid-feedback">
                                     A Valid team member name is required.
                                 </div>
@@ -149,7 +149,7 @@
 
                             <div class="col-12">
                                 <label for="firstName" class="form-label">Team Member 2</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                                <input type="text" class="form-control" id="teammember2" placeholder="" value="" name="team_member2" required>
                                 <div class="invalid-feedback">
                                     A Valid team member name is required.
                                 </div>
@@ -166,7 +166,7 @@
 
                             <div class="col-12">
                                 <label for="email" class="form-label" required>PayPal Email<span class="text-muted"> (Winnings Payout)</span></label>
-                                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                                <input type="email" class="form-control" id="paypalemail" name="email" placeholder="you@example.com" required>
                                 <div class="invalid-feedback">
                                     Please enter a valid email address for sending winnings.
                                 </div>
@@ -175,9 +175,7 @@
 
                         <hr class="my-4">
 
-
-
-                        <button class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
+                        <button type="submit" name="submit" value="Submit" class="w-100 btn btn-primary btn-lg" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
