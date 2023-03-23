@@ -1,6 +1,6 @@
 <?php
 if(isset($_POST['submit'])){
-    $to = "your_email@example.com"; // this is your Email address
+    $to = "sdrobish4@gmail.com"; // this is your Email address
     $from = $_POST['paypalemail']; // this is the sender's Email address
     $discord_name = $_POST['discord_name'];
     $tarkov_name = $_POST['tarkov_name'];
