@@ -1,0 +1,48 @@
+/*
+    Theme Name: PixieClash
+    Theme URI: http://themes.pixiesquad.com
+    Description: PixieClash - is a WordPress theme intended for eSports tournaments, competitions, contests & all sorts of ways for your teams to clash into battle! The theme holds a next level design, adapted to the gaming audience, also bringing along new premium features such as groups, brackets & many more. PixieClash offers the possibility to add teams, sponsors, matches schedule, groups, brackets, buy tickets, watch amazing promo videos, promote your sponsors & more than 100 unique options!
+    Version: 1.0.7
+    Author: PixieSquad.com | Shape The Gaming
+    Author URI: http://pixiesquad.com
+    License: PixieSquad Themes. All rights reserved.
+    License URI: https://themeforest.net/user/pixiesquad
+    Tags: sticky-post, featured-images, editor-style, custom-colors, custom-header, custom-background, translation-ready, theme-options
+    Text Domain: pixieclash
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Galleries
+# Alignment
+# Elements
+# Font size
+--------------------------------------------------------------*/
+
+/* Galleries */
+.gallery-caption {
+    font-weight: normal;
+}
+/* Alignment */
+.aligncenter {
+    text-align: center;
+}
+.alignleft {
+    text-align: left;
+}
+.alignright {
+    text-align: right;
+}
+/* Elements */
+.bypostauthor {
+    color: #d31f48;
+}
+.screen-reader-text {
+    display: none;
+}
+.wp-caption-text {
+    font-weight:normal;
+}
+.wp-caption {
+    max-width: 100%;
+}

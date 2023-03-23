@@ -1,0 +1,1164 @@
+@media screen and (max-width: 1600px) {
+	/* SECTION#SIGNUP */
+	section#signup form div.input::after,
+	section#signup form div.input::before {
+		width: 29.33%;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+@media screen and (max-width: 1170px) {
+	.container {
+		width: 992px;
+	}
+	.mobile-menu-icon {
+		display: inline-block;
+	}
+	header article#top-bar .team-list {
+		width: 468px;
+	}
+	header article.head-content .site-logo {
+		width: 198px;	
+	}
+	header article.head-content .site-logo img {
+		max-width: 198px;
+		height: auto;
+	}
+	header article.head-content ul.navigation {
+        max-width:784px;
+	}
+	header article.head-content ul.navigation > li {
+		margin: 0 8px;
+	}
+	/* SECTION#HERO */
+	section#hero .container {
+		font-size: 14px;
+	}
+	section#hero .container article.hero-info {
+		width: 426px;
+	}
+	section#hero .container article.hero-content {
+		width: 426px;
+	}
+	section#hero .container article.hero-content h2 {
+		font-size: 3em;	
+	}
+	section#hero .container article.hero-content h3 {
+		font-size: 1.6em;
+	}
+	section#hero .container article.hero-content h3::before {
+		top: -8px;
+	}
+	/* SECTION#VENUE */
+	section#venue article.left-box {
+    	width: 496px;
+	}
+	section#venue article.left-box > div.preview-box {
+		height: 264px;
+	}
+	section#venue article.left-box > ul li {
+	    width: 165px;
+	    height: 91px;
+	}
+	section#venue article.left-box > ul li.youtube i.icon-custom.youtube {
+    	margin: 15px auto 10px;
+	}
+	section#venue article.right-box {
+    	width: 436px;
+	}
+	section#venue article.right-box ul.venue-info {
+		font-size: 12px;
+	}
+	section#venue article.right-box ul.venue-info li {
+	    width: 142px;
+	    height: 81px;
+	    padding-top: 18px;
+	}
+	/* SECTION#NEWS */
+	section#news {
+		padding: 70px 0;
+	}
+	section#news article.left-box.first-box {
+		display: none;
+	}
+	section#news article.left-box.mobile-heading {
+		display: block;
+		margin-bottom: 70px;
+	}
+	section#news article.left-box.mobile-footer {
+		display: block;
+	}
+	section#news article.right-box {
+		float: none;
+	}
+	section#news article.right-box::after {
+		clear: both;
+		display: block;
+		content: ' ';
+	}
+	section#news article.left-box a.btn {
+		position: initial;
+		margin-top: 70px;
+	}
+	/* SECTION#COMPETITOR */
+	section#competitors {
+		height: initial;
+	}
+	section#competitors h2 {
+		margin-bottom: 80px;
+	}
+	section#competitors div.container ul li {
+		margin-top: 40px;
+	}
+	section#competitors div.footer-block article.right-box {
+		max-width: 494px;
+	}
+	section#competitors div.footer-block {
+		margin-top: 100px;
+		height: initial;
+	}
+	section#competitors div.footer-block div.container {
+		padding: 0 20px;
+	}
+	section#competitors div.footer-block article.right-box,
+	section#competitors div.footer-block article.left-box {
+		height: initial;
+		border: 0;
+	}
+	section#competitors div.footer-block article.right-box {
+    	border-left: 1px solid #23232b;
+	}
+	section#competitors div.footer-block article.center-box {
+		border:0 !important;
+	}
+	section#competitors div.footer-block::after {
+		clear: both;
+		display: block;
+		content: ' ';
+	}
+	/* SETION#TICKETS */
+	section#tickets div.container {
+		height: initial;
+		padding:100px 0;
+	}
+	section#tickets article.left-box {
+		width: 40%;
+	}
+	section#tickets article.right-box {
+		width: 50%;
+	}
+	section#tickets article.right-box h2 {
+		margin-right: 0;
+	}
+	section#tickets article.right-box hr {
+		top: 38.33%;
+	}
+	section#tickets article.right-box hr::before {
+		left: 29%;
+	}
+	/* SECTION#SCHEDULE */
+	section#schedule {
+		height: initial;
+		padding: 70px 0;
+	}
+	section#schedule div.header {
+		display: none;
+	}
+	section#schedule div.header.mobile {
+		display: block;
+		text-align: center;
+		padding-top: 0;
+	}
+	section#schedule div.header.mobile article.left-head {
+		float: none;
+	}
+	section#schedule div.content article.first-box {
+		float: none;
+		text-align: center;
+		width: initial;
+		margin-right: 0;
+		margin-bottom: 66px;
+	}
+	section#schedule div.content::before {
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
+	}
+	section#schedule div.content article.second-box {
+		float: none;
+		margin: 0 auto 80px;
+	}
+	section#schedule div.footer.mobile {
+		display: block;
+		text-align: center;
+	}
+	section#schedule div.footer.mobile a {
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		color:#5a5b63;
+	}
+	section#schedule div.footer.mobile a.prev {
+		margin-right: 18px;
+	}
+	section#schedule div.footer.mobile a:focus,
+	section#schedule div.footer.mobile a:hover {
+		color:#fff;
+		border: 1px solid #fff;
+	}
+	/* SECTION#STANDING */
+	section#standing article.head {
+		margin-top: 70px;
+	}
+	section#standing article.table {
+		width: 460px;
+	}
+	section#standing article.table table tbody tr td figure {
+		display: none;
+	}
+	section#standing article.table table thead tr th:first-child, 
+	section#standing article.table table tbody tr td:first-child {
+		width: 48.33%;
+	}
+	/* SECTION#SIGNUP */
+	section#signup form div.input::after,
+	section#signup form div.input::before {
+		width: 25%;
+	}
+    section#news article.right-box.full-width ul li {
+        width: 33.3% !important;
+    }
+	/* FOOTER */
+	footer div.top-line div.left-box {
+    	width: 42.33%;
+	}
+	footer div.top-line div.right-box {
+    	width: 56.33%;
+	}
+    footer div.bottom-line div.right-box,
+    footer div.bottom-line div.left-box {
+        margin: 0 auto;
+        float: none;
+    }
+	footer div.bottom-line div.right-box {
+		margin-top: 40px;
+		width: 601px;
+	}
+	section#hero .container article.hero-info div.winner > table.teams-rank {
+		margin-left: 10px;
+	}
+	section#hero .container article.hero-info div.winner > table.teams-rank {
+		width: 155px;
+	}
+	/* SINGE POST - PAGE */
+	section#post-content .container article.post > div.latest-articles > ul {
+		width: 800px;
+	}
+}
+@media screen and (min-width: 992px) {
+	section#news article.right-box .one-post {
+		width:32.33%;
+	}
+}
+@media screen and (max-width: 992px) {
+	section#news .container.custom-news,
+	.container {
+		width: 768px;
+	}
+	/* HEADER */
+	header article#top-bar .team-list {
+    	width: 277px;
+	}
+	header article#top-bar .social-icons {
+		width: 250px;
+	}
+	header article.head-content ul.navigation {
+		width: 568px;
+		font-size: 15px
+	}
+	header article.head-content ul.navigation li {
+    	margin: 10px 5.5px;
+	}
+    header article.head-content .site-logo {
+        width: 198px;
+        margin:auto;
+        float:none;
+        text-align:center;
+    }
+    header article.head-content ul.navigation {
+        float: none;
+        width:100%;
+        display: none;
+        text-align:center;
+    }
+    header article.head-content ul.navigation > li {
+        margin: 0 8px;
+    }
+	/* SECTION#HERO */
+	section#hero {
+		height: initial;
+	}
+	section#hero .container {
+		padding: 160px 0;
+	}
+	section#hero .container article.hero-info {
+		float: none;
+		width: 100%;
+		display: flex;		
+		display: -webkit-flex;
+		display: -moz-flex;
+		align-items: center;	
+		-webkit-align-items: center;	
+		-moz-align-items: center;	
+    	justify-content: center;
+    	-webkit-justify-content: center;
+    	-moz-justify-content: center;
+    	position: relative;
+    	overflow: hidden;
+    	margin-right: 0;
+	}
+	section#hero .container article.hero-info div.winner > div.trophy::after {
+		top: 40%;
+	}
+	section#hero .container article.hero-content {
+		width: 580px;
+		float: none;
+		margin: 100px auto 0;
+		text-align: center;
+	}
+	section#hero .container article.hero-content h2 {
+    	font-size: 4.52em;
+		text-align: right;
+	}
+	section#hero .container article.hero-content h3 {
+		font-size: 1.875em;
+		text-align: right;
+		padding-right: 30px;
+	}
+	section#hero .container article.hero-content p {
+		font-size: 1em;
+	}
+	/* SECTION#VENUE */
+	section#venue article.right-box,
+	section#venue article.left-box {
+		float: none;
+		margin: 0 auto;
+	}
+	section#venue article.right-box {
+		width: 484px;
+		text-align: center;
+		margin-top: 30px;
+		float: none;
+	}
+	section#venue article.right-box ul.venue-info::after,
+	section#venue article.left-box > ul::after {
+		display: block;
+		content: ' ';
+		clear: both;
+	}
+	section#venue article.right-box ul.venue-info {
+		width: 428px;
+		margin: 0 auto;
+	}
+	/* SECTION#NEWS */
+	section#news article.right-box {
+		margin: 0 auto;
+		height: initial;
+		width: 520px;
+	}
+	section#news article.right-box ul li {
+		margin-bottom: 58px;
+		text-align: center;
+		margin-right: 0 !important;
+	}
+	section#news article.right-box ul li:first-child {
+		margin-right: 40px !important;
+	}
+	section#news article.right-box.full-width ul li:first-child {
+		margin-right:0 !important;
+	}
+	section#news article.right-box ul li.last::before {
+		clear: both;
+		display: block;
+		content: ' ';
+	}
+	section#news article.left-box.mobile-heading {
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+	section#news article.right-box ul li div.thumbnail span.date {
+		text-align: left;
+	}
+	section#news article.right-box ul li.last {
+		top: initial;
+		position: initial;
+		float: none;
+		margin:0 auto !important;
+	}
+	section#news article.right-box ul li a {
+		float: none;
+		display: inline-block;
+		margin: 0 auto;
+	}
+	/* SECTION#COMPETITORS */
+	section#competitors {
+		padding: 70px 0;
+	}
+	section#competitors > div.container {
+		padding: 0;
+	}
+	section#competitors div.footer-block {
+		border: 0;
+	}
+	section#competitors div.footer-block article.right-box, section#competitors div.footer-block article.left-box {
+		float: none;
+		width: initial;
+		text-align: center;
+		margin: 0 auto;
+	}
+	section#competitors div.footer-block article.right-box {
+		padding: 0;
+		border: 0;
+	}
+	section#competitors div.footer-block article.right-box h4 {
+		margin-top: 74px;
+	}
+	section#competitors div.footer-block article.right-box h4,
+	section#competitors div.footer-block article.left-box h4 {
+		margin-bottom: 33px;
+	}
+	section#competitors div.footer-block article.left-box table {
+		margin: 0 auto;
+	}
+	/* SECTION#TICKETS */
+	section#tickets div.container {
+		padding: 70px 0;
+	}
+	section#tickets article.left-box {
+		float: none;
+		width: 100%;
+	}
+	section#tickets article.right-box {
+		float: none;
+		height: initial;
+		width: initial;
+		text-align: center;
+	}
+	section#tickets article.right-box hr {
+		position: initial;
+	}
+	section#tickets article.right-box hr::before {
+		display: none;
+	}
+	section#tickets article.right-box h4 {
+		margin-right: 0;
+		margin-top: 48px;
+		margin-bottom: 16px;
+		text-transform: none;
+	}
+	section#tickets article.right-box h2 {
+		margin-bottom: 22px;
+	}
+	section#tickets article.right-box .btn.green-btn {
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+	}
+	/* SECTION#SCHEDULE */
+	section#schedule div.content article.first-box {
+		margin-bottom: 36px;
+	}
+	section#schedule div.content article.second-box {
+		width: 372px;
+		margin: 0 auto 78px;
+	}
+	section#schedule div.content article.second-box table tr {
+		display: block;
+		border: 0;
+	}
+	section#schedule div.content article.second-box table tr:first-child {
+		border: 0;
+	}
+	section#schedule div.content article.second-box table tr td:first-child {
+		display: block;
+		border-right: 0 !important;
+	}
+	section#schedule div.content article.second-box table tr td {
+		padding: 30px 0 30px !important;
+		border-bottom: 1px solid #272938;
+	}
+	section#schedule div.content article.second-box table tr:last-child td:last-child {
+		border-bottom: 0 !important;
+		padding-bottom: 0 !important;
+	} 
+	section#schedule div.content article.second-box table tr td.second {
+		padding-left: 0 !important;
+	}
+	/* SECTION#STANDING */
+	section#standing article.table {
+		margin: 0 auto;
+		float: none;
+	}
+	section#standing article.table.first {
+		margin-right: auto;
+		margin-bottom: 22px;
+	}
+	/* FOOTER */
+	footer div.bottom-line {
+	    width: 600px;
+	    margin: 0 auto;
+	}
+	footer div.bottom-line div.left-box {
+		width: 250px;
+		float: left;
+		margin-right: 55px;
+	}
+	footer div.bottom-line div.right-box {
+		width: 295px;
+		margin-top: 0;
+		float: left;
+	}
+	footer div.bottom-line div.right-box ul {
+		display: block;
+		margin-right: 0 !important;
+	}
+	footer div.bottom-line div.right-box ul:not(.first-ul) {
+		margin-top: 30px;
+	}
+	footer div.bottom-line div.left-box table tr td {
+		display: block;
+		border-right:0 !important;
+		padding: 0 !important;
+	}
+	footer div.bottom-line div.left-box table tr td:not(:first-child) {
+		margin-top: 30px;
+	}
+	/* SINGE POST - PAGE */
+	section#post-content .container article.post > div.latest-articles > ul {
+		width: 600px;
+	}
+	footer div.bottom-line div.right-box.no-left .widget-list {
+		flex-direction: column;
+		-webkit-flex-direction: column;
+		align-items: center;
+		-webkit-align-items: center;
+	}
+	footer div.bottom-line div.right-box.no-left .widget-list {
+		margin: -10px 0;
+	}
+	footer div.bottom-line div.right-box.no-left .widget-list article {
+		margin: 10px 0;
+    	text-align: center;
+	}
+}
+@media screen and (max-width: 768px) {
+	section#news .container.custom-news,
+	.container {
+		width: 520px;
+	}
+	/* HEADER */
+	header article#top-bar .team-list,
+	header article.head-content ul.navigation {
+		display: none;
+	}
+	header article#top-bar .get-tickets {
+		display: none;
+	}
+	header article#top-bar .social-icons {
+		margin: 0 auto;
+		float: none;
+		text-align: center;
+	}
+	header article.head-content .site-logo {
+		float: none;
+		text-align: center;
+		width: initial;
+	}
+	header article.head-content .site-logo img {
+		max-width: initial;
+	}
+	header article#top-bar a.mobile-menu {
+		display: inline-block;
+	}
+	header article#top-bar .social-icons a:last-child::after {
+		display: none;
+	}
+	/* SECTION#HERO */
+	section#hero .container article.hero-content {
+		width: 100%;
+	}
+	/* SECTION#CTA-SECTION */
+	section#cta-section .box {
+		width: initial;
+		margin: 0;
+		padding: 70px 0;
+	}
+	/* SECTION#COMPETITORS */
+	section#competitors div.container ul li:not(:last-child) {
+		margin-right: 0;
+	}
+	section#competitors div.container ul li:nth-child(2n + 1) {
+		margin-right: 50px;
+	}
+	/* SECTION#VENUE */
+	section#venue article.right-box {
+		width: 100%;
+	}
+	section#venue article.left-box > div.preview-box {
+		height: 242px;
+	}
+	/* SECTION#SIGN-UP */
+	section#signup form div.input::after, section#signup form div.input::before {
+		width: 18% !important;
+	}
+	/* SECTION#NEWS */
+	section#news article.right-box.full-width ul li {
+		width: 49.3% !important;
+		display: inline-block;
+		float:none !important;
+		vertical-align: top;
+		margin-bottom:40px !important;
+	}
+	/* SECTION#STANDING */
+	section#standing div.footer-right,
+	section#standing article.footer-left {
+		float: none;
+		width:100%;
+		text-align: center;
+	}
+	section#standing div.footer-right {
+		margin-top: 35px;
+	}
+	footer div.top-line {
+		padding: 45px 0;
+	}
+	footer div.top-line div.right-box,
+	footer div.top-line div.left-box {
+		width: 100%;
+		float: none;
+		border-right: 0;
+	}
+	footer div.top-line div.left-box {
+		max-width: initial;
+	}
+	footer div.top-line div.right-box {
+		padding: 0;
+	}
+	footer div.top-line div.left-box ul {
+		float: right;
+		padding-right: 0;
+	}
+	footer div.top-line div.right-box.desktop {
+		display: none;
+	}
+	footer div.mobile-middle {
+		display: block;
+	}
+	footer div.top-line div.left-box {
+		padding: 0;
+	}
+    footer div.bottom-line {
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer div.bottom-line div.left-box {
+        width: 165px;
+        float: none;
+        margin: 0 auto;
+        text-align:center;
+    }
+    footer div.bottom-line div.right-box {
+        width: 100%;
+        float: none;
+        text-align:center;
+    }
+    footer .widget-list #wp-calendar {
+        text-align:left;
+        width:250px;
+        margin:0 auto;
+    }
+	/* SINGE POST - PAGE */
+	section#post-content {
+		font-size: 14px;
+	}
+	section#post-content .container article.navigation div.left-btns {
+		display: none;
+	}
+	section#post-content .container article.navigation div.right-btns {
+		float: none;
+		text-align: center;
+	}
+	section#post-content .container article.post > div.latest-articles > ul {
+		width: 100%;
+		display: block;
+		float: none;
+	}
+	section#post-content .container article.post > div.latest-articles > ul li {
+		display: block;
+		width: 100%;
+		margin: 0 auto 30px !important;
+	}
+	section#post-content .container article.post > div.header h3.post-title {
+		font-size: 2.2em;
+	}
+	section#post-content .container article.post > div.comments h3,
+	section#post-content .container article.post > div.latest-articles h3 {
+		font-size: 2em;
+	}
+	section#post-content .container article.navigation a {
+ 		width: 145px;
+		height: 45px;
+		line-height: 32px;
+	 }
+	section#post-content .container article.post > div.latest-articles > ul li div.mini-post-header {
+		height: 212px;
+	}
+	section#post-content .container article.post > div.latest-articles > div.arrows {
+		display: none;
+	}
+	section#post-content .container article.post > div.comments > ul li ul.children {
+		padding: 0 0 0 30px;
+	}
+	section#post-content .container article.post > div.comments > ul li table td span.comment-info {
+		line-height: 23px;
+	}
+	section#post-content .container article.post > div.comments form.comment-form textarea,
+	section#post-content .container article.post > div.comments form.post-comment textarea {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 520px) {
+    section#post-content .container article.post > div.comments form.comment-form .input-inline input:not(:last-child) {
+        margin-bottom:10px;
+    }
+	section#news .container.custom-news,
+	.container {
+		width: 460px;
+	}
+	/* SECTION#HERO */
+	section#hero .container article.hero-content {
+		font-size: 12px;
+	}
+	section#hero .container article.hero-content h3 {
+		text-align: center;
+		padding-right:0;
+	}
+	section#hero .container article.hero-content h2 {
+		text-align: center;
+		font-size: 3.52em;
+		margin: 10px 0 30px;
+	}
+	/* SECTION#NEWS */
+	section#news article.right-box {
+		width: 240px;
+	}
+	section#news article.right-box ul li:first-child {
+		margin-right: 0 !important;
+	}
+	section#news article.right-box .one-post {
+		width:100%;
+	}
+	/* SECTION#VENUE */
+	section#venue article.left-box {
+		width: 460px;
+	}
+	section#venue article.left-box > ul li {
+		width: 153px;
+		height: 81px;
+	}
+	section#hero .container article.hero-info div.countdown span.num {
+		height: 64px;
+		width: 64px;
+		line-height: 64px;
+	}
+	/* FOOTER */
+	footer div.container {
+		padding: 0 20px;
+	}
+	footer div.bottom-line div.left-box,
+	footer div.bottom-line div.right-box {
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+	footer div.bottom-line div.right-box {
+		margin-top:20px;
+	}
+	/* SPONSORS */
+	section.sponsor-list ul div.owl-item {
+		text-align: center;
+	}
+	section.sponsor-list ul div.owl-item:not(:last-child) li {
+		border-right: 0;
+	}
+	section.sponsor-list ul div.owl-item img {
+		display: initial;
+	}
+	/* SINGLE POST - PAGE */
+	section#post-content .container article.post > div.header span.post-info {
+		line-height: 1.4;
+	}
+}
+@media screen and (max-width: 460px) {
+	section#news .container.custom-news,
+	.container {
+		width: 360px;
+		padding: 0 10px;
+	}
+	/* SECTION#HERO */
+	section#hero .container {
+		font-size: 14px;
+	}
+	section#hero .container article.hero-info div.winner > div.trophy {
+		margin-left: 0;
+	}
+	section#hero .container article.hero-info div.winner > table.teams-rank {
+		margin-left: 0;
+		width: 135px;
+	}
+	section#hero .container .arrows {
+		display: none;
+	}
+	/* SECTION#NEWS */
+	section#news article.right-box.full-width ul li {
+		width: 100% !important;
+		display: block;
+		float:none !important;
+		vertical-align: top;
+		margin-bottom:40px !important;
+	}
+	section#news article.right-box ul li div.thumbnail span.categories {
+		display: block;
+		float: none;
+	}
+	section#news article.right-box ul li div.thumbnail span.date {
+		text-align: left;
+	}
+	/* SECTION#SCHEDULE */
+	section#schedule div.footer.mobile .btn {
+		width: 145px;
+		height: 45px;
+		line-height: 32px;
+	}
+	section#schedule div.content article.second-box {
+		width: 340px;
+    	font-size: 14px;
+	}
+	/* SECTION#VENUE */
+	section#venue {
+		font-size: 14px;
+	}
+	section#venue article.left-box {
+		width: 340px;
+	}
+	section#venue article.left-box > ul li {
+		width: 33.33%;
+		height: 65px;
+	}
+	section#venue article.right-box ul.venue-info {
+		width: 360px;
+	}
+	section#venue article.right-box ul.venue-info li {
+		width: 33.33%;
+	}
+	section#venue article.left-box > ul li.youtube i.icon-custom.youtube {
+		margin-top: 4px;
+	}
+	/* SECTION#SIGN-UP */
+	section#signup {
+		font-size: 14px;
+		height: initial;
+		padding: 0 0 60px 0;
+	}
+	section#signup form div.input {
+		width: 80%
+	}
+	section#signup form div.input::after, section#signup form div.input::before {
+		width: 5% !important;
+	}
+	section#signup div.container p {
+		padding: 0 10px;
+	}
+	/* SECTION#TICKETS */
+	section#tickets article.right-box {
+		font-size: 14px;
+	}
+	section#tickets article.left-box figure img {
+		max-height: 200px;
+	}
+	/* SECTION#COMPETITORS */
+	section#competitors > div.container {
+		font-size: 14px;
+	}
+	section#competitors div.container ul li:nth-child(2n + 1) {
+		margin-right: 25px;
+	}
+	section#competitors div.footer-block article.right-box, section#competitors div.footer-block article.left-box {
+		font-size: 12.5px;
+	}
+	/* SECTION#STANDING */
+	section#standing article.table {
+		width: 340px;
+	}
+	section#standing article.table table thead tr th:first-child, section#standing article.table table tbody tr td:first-child {
+		width: 40%;
+	}
+	section#standing article.table table thead tr th:not(:first-child), section#standing article.table table tbody tr td:not(:first-child) {
+		width: 25px;
+	}
+	section#standing div.footer-right, section#standing article.footer-left {
+		font-size: 14px;
+	}
+	/* SECTION#CTA-SECTION */
+	section#cta-section {
+		padding: 60px 0;
+	}
+	section#cta-section .box {
+		padding: 0;
+	}
+	section#cta-section .box .btn {
+		width: 145px;
+		height: 45px;
+		line-height: 32px;
+	}
+	section#cta-section .box .btn i.icon-custom.ticket {
+		position: initial;
+	}
+	/* FOOTER */
+	footer div.top-line div.left-box figure {
+		float: none;
+		width: 100%;
+		padding-right: 0;
+		text-align: center;
+	}
+	footer div.top-line div.left-box ul {
+		float: none;
+		text-align: center;
+	}
+	footer div.bottom-line {
+		width: 340px;
+	}
+	footer div.bottom-line div.left-box {
+		margin-right: 10px;
+	}
+	/* SINGLE POST - PAGE */
+	header article#top-bar a.mobile-menu {
+		position: relative;
+		right: 20px;
+	}
+	section#post-content .container {
+		width: 100%;
+	}
+	section#post-content .container article.post > div.header {
+    	padding: 20px 20px 0;
+	}
+	section#post-content .container article.post > div.header, section#post-content .container article.post > div.content {
+		padding: 20px;
+	}
+	section#post-content .container article.post > div.latest-articles {
+		padding: 0 20px 20px 20px;
+	}
+	section#post-content .container article.post > div.latest-articles > ul li div.mini-post-header {
+		height: 138px;
+	}
+    section#competitors h2 {
+        font-size:3em;
+        margin-bottom:40px;
+    }
+    section#news article.left-box h3 {
+        font-size:2em;
+    }
+    section#news article.left-box h2 {
+        font-size:3em;
+    }
+    section#venue h2 {
+        font-size:4em;
+    }
+    section#venue h3 {
+        font-size:1.5em;
+    }
+    section#competitors div.container ul li > div.logo-img {
+        width: 86px;
+        height: 86px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+@media screen and (max-width: 361px) {
+	section#news .container.custom-news,
+	.container {
+		width: 100%;
+		padding: 0 10px;
+	}
+	/* SECTION#HERO */
+	section#hero .container article.hero-info div.winner > div.winner-team {
+		width: 85px;
+		position: relative;
+		top: 30px;
+		z-index: 1;
+	}
+	section#hero .container article.hero-info div.winner > div.winner-team > figure > img {
+		max-height: 55px;
+	}
+	section#hero .container article.hero-info div.winner > table.teams-rank {
+		width: 140px;
+	}
+	section#hero .container article.hero-content h2 {
+		font-size: 3em;
+	}
+	section#hero .container article.hero-content .btn {
+		width: 145px;
+		height: 45px;
+		line-height: 32px;
+	}
+	section#hero .container article.hero-content a.more-info {
+		margin-left: 10px;
+	}
+	section#hero .container article.hero-info {
+		margin-right: 0;
+		margin-top: 0;
+	}
+	section#hero .container article.hero-info div.winner > div.trophy::after {
+		margin-left: -10px;
+	}
+	/* SECTION#CTA-SECTION */
+	section#cta-section {
+		font-size: 13px;
+	}
+	section#cta-section .box .btn {
+		width: 140px;
+	}
+	section#cta-section .mr30 {
+		margin-right: 10px;
+	}
+	/* SECTION#SCHEDULE */
+	section#schedule div.content article.second-box {
+		font-size: 12px;
+		margin-bottom: 40px;
+	}
+	section#schedule div.footer.mobile {
+		padding-bottom: 20px;
+	}
+	/* SECTION#SIGN-UP */
+	section#signup {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	/* SECTION#COMPETITOR */
+	section#competitors {
+		padding: 60px 0;
+	}
+	section#competitors div.container ul li:nth-child(2n + 1) {
+		margin-right: 0 !important;
+	}
+	/* SECTION#TICKETS */
+	section#tickets article.left-box figure img {
+		max-height: 165px;
+	}
+	section#tickets article.right-box {
+		padding: 0 10px;
+	}
+	section#tickets article.right-box .btn.green-btn {
+		width: 145px;
+		height: 45px;
+		line-height: 32px;
+	}
+	section#tickets article.right-box .btn.green-btn  i.icon-custom.ticket {
+		position:initial;
+	}
+	/* SECTION#VENUE */
+	section#venue article.left-box {
+		width: 100%;
+	}
+	section#venue article.right-box ul.venue-info {
+		width: 100%;
+	}
+	section#venue article.right-box ul.venue-info li {
+    	height: 65px;
+    	padding-top: 12px;
+	}
+	/* SECTION#STANDING */
+	section#standing div.footer-right, section#standing article.footer-left {
+		padding: 0 10px;
+	}
+	/* SECTION#SCHEDULE */
+	section#schedule {
+		padding: 0 10px;
+	}
+	section#schedule div.content article.second-box {
+		width: 100%;
+	}
+	section#schedule div.footer.mobile .btn {
+		width: 130px;
+	}
+	section#schedule div.header.mobile {
+		padding-top: 60px;
+	}
+	/* FOOTER */
+	footer div.bottom-line {
+		width: 100%;
+	}
+	footer div.bottom-line div.right-box,
+	footer div.bottom-line div.left-box {
+		margin: 0 auto;
+		float: none;
+	}
+	footer div.bottom-line div.right-box {
+		margin-top: 25px;
+	}
+    section#hero .container article.hero-content h3::before {
+        display:none;
+    }
+    section#hero .container article.hero-info div.winner > div.winner-team {
+        width: 65px;
+    }
+	/* SINGLE POST - PAGE */
+	section#post-content .container article.navigation a {
+	    width: 125px;
+	    height: 35px;
+	    font-size: 12px;
+	    line-height: 22px;
+	}
+	section#post-content .container article.navigation a svg {
+		position: relative;
+		top: 1px;
+	}
+    footer .widget-list select, footer .widget-list input[type="text"] {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 341px) {
+    section#schedule div.footer.mobile a.prev,
+    section#schedule div.footer.mobile a.next,
+    section#tickets article.right-box .btn.green-btn,
+    section#hero .container article.hero-content .btn,
+    section#cta-section .box .btn {
+        margin: 0 auto 15px;
+        display: block;
+    }
+    section#tickets article.right-box a.reserve {
+        margin-left:0;
+    }
+    section#tickets article.left-box figure img {
+        max-height:140px;
+    }
+    section#signup form div.input {
+        width:100%;
+    }
+    section#signup form div.input::after, section#signup form div.input::before {
+        display:none
+    }
+}
+@media screen and (max-width: 301px) {
+	header article#top-bar a.mobile-menu {
+		display: none;
+	}
+	header article#top-bar .social-icons {
+		margin: 0;
+		text-align: center;
+	}
+}
