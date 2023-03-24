@@ -119,25 +119,6 @@
                                 </div>
                             </div>
 
-                            <div class="col-6">
-                                <label for="firstName" class="form-label">SCAV Kills</label>
-                                <input type="text" class="form-control" id="teamcaptain" placeholder="" value="" name="scav_kills" required>
-                                <div class="invalid-feedback">
-                                    A Valid team captain name is required.
-                                </div>
-                            </div>
-
-                            <div class="col-6">
-                                <label for="firstName" class="form-label">Boss Kills</label>
-                                <input type="text" class="form-control" id="teammember1" placeholder="" value="" name="boss_kills" required>
-                                <div class="invalid-feedback">
-                                    A Valid team member name is required.
-                                </div>
-                            </div>
-
-                            <hr class="my-4">
-                            <h4 class="mb-3">Status</h4>
-
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="" name="survived">
                                 <label class="form-check-label" for="save-info">Survived</label>
@@ -155,20 +136,13 @@
                             <h4 class="mb-3">Confirmation</h4>
 
                             <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="" name="raid-images" required>
+                                <label class="form-check-label" for="save-info">I have submitted my post raid images showing my survival status and kills in the appropriate discord channel.</label>
+                            </div>
+                            
+                            <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="" name="acknowledgement" required>
-                                <label class="form-check-label" for="save-info">I acknowledge the information I provided is accurate and I understand that any incorrect information I present disqualifies me and my team.</label>
-                            </div>
-
-                            <hr class="my-4">
-                            <h4 class="mb-3">Post Raid Images</h4>
-
-                            <div class="mb-3">
-                                <label for="formFile" class="form-label" required>Post Raid Status</label>
-                                <input class="form-control" type="file" id="formFile" name="post-rad-status" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="formFile" class="form-label">Post Raid Kills</label>
-                                <input class="form-control" type="file" id="formFile" name="post-raid-kills" required>
+                                <label class="form-check-label" for="save-info">I acknowledge the information I provided is accurate and I understand that any incorrect information I present disqualifies myself or my team.</label>
                             </div>
                         </div>
 
