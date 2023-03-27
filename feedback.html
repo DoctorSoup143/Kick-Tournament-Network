@@ -21,7 +21,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.108.0">
-    <title>Register</title>
+    <title>Event Feedback</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
     <link href="https://tarkovkicktournaments.com/assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -86,7 +86,7 @@
     <div class="container">
         <main>
             <div class="py-5 text-center">
-                <h2>Report Competitor</h2>
+                <h2>Event Feedback Form</h2>
                 <p class="lead">Please complete the feedback form below. I rushed the formatting, dont hurt me.</p>
             </div>
 
@@ -100,15 +100,12 @@
                                 <label for="firstName" class="form-label">Title</label>
                                 <input type="text" class="form-control" id="title" placeholder="" value="" name="title" required>
                                 <div class="invalid-feedback">
-                                    A Valid Discord username is required.
+                                    A Valid title is required.
                                 </div>
                             </div>
-                            <div class="col-sm-12">
-                                <label for="firstName" class="form-label">Title</label>
-                                <input type="text" class="form-control" id="feedback" placeholder="Feedback goes here..." value="" name="title" required>
-                                <div class="invalid-feedback">
-
-                                </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Event Feedback:</label>
+                                <textarea class="form-control" name="feedback" id="exampleFormControlTextarea1" rows="3"></textarea>
                             </div>
                         </div>
 
