@@ -262,7 +262,7 @@
                 <table class="table-body">
                     <thead>
                         <tr>
-                            <th>Competitors</th>
+                            <th>Standings</th>
                             <th rel="Exfils">Exfil</th>
                             <th rel="PmcKills">PMCs</th>
                             <th rel="total">Total</th>
@@ -370,6 +370,28 @@
                 document.querySelector('article.table.first').appendChild(table);
             });
     </script>
+
+    <script>
+        fetch('https://script.google.com/macros/s/AKfycbx9ZpKodp8jxLP9MlqMZJuV0kRXdLmMbwHt5YAaJXuqmouIw6h9r8rTpC6iZP_oVF51Gw/exec')
+            .then(response => response.json())
+            .then(data => {
+                var table = document.createElement('table');
+                table.className = 'table-body';
+                var tbody = document.createElement('tbody');
+                for (var i = 0; i < data.length; i++) {
+                    var row = document.createElement('tr');
+                    for (var j = 0; j < data[i].length; j++) {
+                        var cell = document.createElement('td');
+                        cell.textContent = data[i][j];
+                        row.appendChild(cell);
+                    }
+                    tbody.appendChild(row);
+                }
+                table.appendChild(tbody);
+                document.querySelector('article.table.second').appendChild(table);
+            });
+    </script>
+
 
 
 </body></html>
