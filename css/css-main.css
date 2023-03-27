@@ -2195,7 +2195,7 @@ section#standing article.table table {
 section#standing article.table table thead {
     display: block;
     height: 38px;
-    padding-left: 22px;
+    padding-left: 10px;
     line-height: 38px;
     border: 1px solid #16161d;
     border-radius: 3px;
@@ -2221,12 +2221,13 @@ section#standing article.table table tbody tr td:first-child {
 
 section#standing article.table table thead tr th:not(:first-child),
 section#standing article.table table tbody tr td:not(:first-child) {
-    width: 30px;
+    width: 50px;
+    padding: 0px;
 }
 
 section#standing article.table table thead tr th:not(:first-child) {
-    text-align: center;
-    padding-right: 15px;
+    text-align: right;
+    padding-right: 0px;
 }
 
 section#standing article.table table thead tr th {
@@ -2250,7 +2251,7 @@ section#standing article.table table tbody tr td:first-child {
 }
 
 section#standing article.table table tbody tr td:not(:first-child) {
-    padding: 0 5px;
+    padding-left: 40px;
 }
 
 section#standing article.table table tbody tr td:not(:first-child) {
