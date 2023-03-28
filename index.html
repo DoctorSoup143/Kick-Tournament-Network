@@ -237,43 +237,23 @@
     <section id="hero" style="background-image: url('https://tarkovkicktournaments.com/Tarkov-background2.webp')">
         <div class="container">
             <article class="hero-info">
-                <div class="winner active">
-
-                    <div class="winner-team">
-                        <h3>1st Place</h3>
-                        <figure>
-                            <img src="https://tarkovkicktournaments.com/logos/cksavage.webp" alt="">
-                        </figure>
-                        <span class="team-name">CKSavage</span>
+                <section id="standing" style="background-color: rgba(255, 0, 0, 0)">
+                    <div class="container">
+                        <article class="table second ">
+                            <h5 class="group-name">Rankings</h5>
+                            <table class="table-body">
+                                <thead>
+                                    <tr>
+                                        <th>Standings</th>
+                                        <th rel="Exfils">Exfil</th>
+                                        <th rel="PmcKills">PMCs</th>
+                                        <th rel="total">Total</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </article>
                     </div>
-
-                    <div class="trophy">
-                        <figure>
-                            <img src="images/images-trophy.png" alt="Trophy">
-                        </figure>
-                    </div>
-
-                    <table class="teams-rank">
-                        <tr>
-                            <td>
-                                <img src="https://tarkovkicktournaments.com/logos/lehgahsee.webp" alt="">
-                            </td>
-                            <td>
-                                <h4>2nd place</h4>
-                                <span class="team-name">LEGAHSEE</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="" alt="">
-                            </td>
-                            <td>
-                                <h4>3rd place</h4>
-                                <span class="team-name">R3APOVSKI & STIKY</span>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                </section>
             </article>
 
             <article class="hero-content">
@@ -288,6 +268,7 @@
         </div>
     </section>
 -->
+
 
 
 
@@ -340,7 +321,6 @@
                 <p>The Kalashnikov Clash is a five-raid tournament that will take place in various locations throughout Tarkov. To keep things balanced, competitors will be limited to AK platform weapons, which means that everyone will be on equal footing when it comes to firepower. Who will emerge victorious in this inaugural event? Will it be a seasoned Tarkov veteran who has been playing for years, or will a newcomer surprise us all with their skills and strategy?
                     <br />
                     <br />
-                    <a href="https://tarkovkicktournaments.com/Solo.html" target="_blank" class="btn green-btn mr30"><i class="fa fa-plus"></i>Scoreboard</a>
                 </p>
             </article>
             <div class="clearfix">
@@ -387,11 +367,13 @@
                     </li>
                 </ul>
             </article>
-            </div>
+        </div>
         <br />
         <a href="https://tarkovkicktournaments.com/solo-registered.html" target="_blank" class="btn green-btn mr30">Competitors</a>
+        <br />
+        <br />
     </section>
-    
+
 
 
 
@@ -410,6 +392,27 @@
     </section>
 
 
+
+    <script>
+        fetch('https://script.google.com/macros/s/AKfycbx9ZpKodp8jxLP9MlqMZJuV0kRXdLmMbwHt5YAaJXuqmouIw6h9r8rTpC6iZP_oVF51Gw/exec')
+            .then(response => response.json())
+            .then(data => {
+                var table = document.createElement('table');
+                table.className = 'table-body';
+                var tbody = document.createElement('tbody');
+                for (var i = 0; i < data.length; i++) {
+                    var row = document.createElement('tr');
+                    for (var j = 0; j < data[i].length; j++) {
+                        var cell = document.createElement('td');
+                        cell.textContent = data[i][j];
+                        row.appendChild(cell);
+                    }
+                    tbody.appendChild(row);
+                }
+                table.appendChild(tbody);
+                document.querySelector('article.table.second').appendChild(table);
+            });
+    </script>
 
 
 
