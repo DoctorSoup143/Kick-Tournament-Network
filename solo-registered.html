@@ -250,6 +250,7 @@
                             <th>Registered Competitors</th>
                             <th rel="Exfils">Lvl</th>
                             <th rel="PmcKills">K/D</th>
+                            <th rel="PmcKills">SR %</th>
                         </tr>
 
                     </thead>
@@ -337,7 +338,7 @@
 
     <!-- Google Sheets Scoreboard -->
     <script>
-        fetch('https://script.google.com/macros/s/AKfycbxbz1fL_Dw0aiKgD9WF2QGScBvjaPlitWkA5K-i-PStcK-YUi123aGNCtvI_54wvlkAbQ/exec')
+        fetch('https://script.google.com/macros/s/AKfycbxA0ZKAzKu6rLWBCYXLufTmdVL52F3a1ddcQogdA5RJaKxulScYA1oIkayZFVa1Fpf0ug/exec')
             .then(response => response.json())
             .then(data => {
                 var table = document.createElement('table');
