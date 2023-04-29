@@ -1,496 +1,405 @@
 <!DOCTYPE html>
-<html lang="en-US" class="no-js">
+<html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2QNWNTLC3S"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="author" content="AtypicalThemes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+    <!-- WEBSITE TITLE & DESCRIPTION -->
+    <title>Exclusive Kick Tournaments</title>
+    <meta name="description" content="A unique Tarkov tournament solution.">
+    <meta name="keywords" content="tarkov, tournament, kick, doctorsoup143, steam, Tarkov tournament">
 
-        gtag('config', 'G-2QNWNTLC3S');
+    <!-- OG meta tags that improve the look of your post on social media -->
+    <meta property="og:site_name" content>
+    <!--website name-->
+    <meta property="og:site" content>
+    <!--website link-->
+    <meta property="og:title" content>
+    <!--Post title-->
+    <meta property="og:description" content>
+    <!--Post description-->
+    <meta property="og:image" content><!-- Image link (jpg only)-->
+    <meta property="og:url" content>
+    <!--where do you want your post to link to-->
+    <meta property="og:type" content="article">
 
-    </script>
+    <!-- Favicon and Apple Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
+    <!-- STYLES -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Animations -->
+    <link href="css/animations.css" rel="stylesheet">
+    <!-- Lightbox -->
+    <link href="css/lightbox.min.css" rel="stylesheet">
+    <!-- Video Lightbox -->
+    <link href="css/modal-video.min.css" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 
-    <meta charset="UTF-8">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Experience the thrill of head-to-head offline gameplay with our Tarkov tournaments, specially designed for content creators on Kick! All competitors are placed within the same raid, ensuring a competitive and intense competition. Take part in either free community events or events with prize pools, and demonstrate your skills to the Tarkov kick community.">
-
-    <title>Kick Tarkov Tournaments</title>
-    <meta name="robots" content="max-image-preview:large">
-    <style type="text/css">
-        img.wp-smiley,
-        img.emoji {
-            display: inline !important;
-            border: none !important;
-            box-shadow: none !important;
-            height: 1em !important;
-            width: 1em !important;
-            margin: 0 0.07em !important;
-            vertical-align: -0.1em !important;
-            background: none !important;
-            padding: 0 !important;
-        }
-
-    </style>
-    <link rel="stylesheet" id="wp-block-library-css" href="css/block-library-style.min.css" type="text/css" media="all">
-
-    <link rel="stylesheet" id="pixieclash-css" href="css/pixieclash-style.css" type="text/css" media="all">
-    <style id="pixieclash-inline-css" type="text/css">
-        body.page-template-brackets-page {
-            background-image: url("http://themes.pixiesquad.com/pixieclash/wp-content/uploads/2017/03/brackets_bg.jpg") !important;
-        }
-
-        header article#top-bar .team-list .next-team,
-        header article#top-bar .team-list .prev-team {
-            display: none;
-        }
-
-        /* HEADER */
-        header article#top-bar .social-icons a:hover,
-        header article.head-content ul.navigation li a.active,
-        header article.head-content ul.navigation li:hover a,
-
-        /* HERO */
-        section#hero .container article.hero-content h3,
-
-        /* SCHEDULE */
-
-        section#schedule div.content article.second-box table tr td ul li:hover,
-        section#schedule div.content article.first-box h4,
-
-        /* STANDINGS */
-        section#standing article.table h5.group-name,
-
-        /* COMPETITORS */
-        section#competitors div.container ul li:hover div.social-icons a,
-        section#competitors div.footer-block article.right-box h4,
-        section#competitors div.footer-block article.left-box h4,
-
-        /* Error Page */
-        section#notfound a,
-
-        /* VENUE */
-        section#venue article.left-box>div.preview-box .caption>span.channel-name,
-        section#venue article.right-box a,
-        section#venue article.left-box>ul li.youtube span.second,
-
-        /* NEWS */
-        section#news .nav-previous a,
-        section#news .nav-next a,
-
-        /* SINGLE */
-        section#post-content .container article.post>div.content code,
-
-        /* POST */
-        section#post-content .container article.post>div.header a,
-        section#post-content .container article.post>div.content a,
-        section#post-content .container article.post>div.comments>ul li table td span.comment-info a,
-        section#post-content .container article.post>div.comments>ul li table td span.comment-info strong,
-        footer div.bottom-line div.right-box ul li a:hover,
-        section#post-content .container article.post>div.comments .logged-in-as,
-        section#post-content .container article.post>div.comments .logged-in-as a,
-
-        /* Modal */
-        .mo-modal .mo-menu-box .modal-body ul li a,
-        /* Footer */
-        footer div.top-line div.left-box ul li a:hover,
-        footer div.bottom-line div.left-box table tr td span.email,
-        footer .widget-list a {
-            color: #f2320c !important;
-        }
-
-        /* BTN */
-        .btn.green-btn,
-
-        /* Competitors */
-        section#competitors div.container ul li:hover h3,
-
-        /* Single */
-        section#post-content .container article.post>div.content pre,
-
-        /* News */
-        section#news .container.custom-news .search-info input[type="text"] {
-            border-color: #f2320c !important;
-        }
-
-
-        section#schedule div.content article.second-box table tr td ul li:hover svg .clock-svg,
-        section#schedule div.content article.second-box table tr td ul li:hover svg .match-svg,
-        section#post-content .container article.post>div.latest-articles>div.arrows a:hover>svg {
-            fill: #f2320c;
-        }
-
-        /* Header */
-        header article.head-content ul.navigation>li:not(.menu-item-has-children):hover::after,
-
-        /* Hero */
-        section#hero .container article.hero-content h3::before,
-
-        /* News */
-        section#news .container.custom-news .search-info button,
-        section#news .container.custom-news .search-info input[type="submit"],
-
-        /* Single */
-        section#post-content .container article.post>div.content input[type="submit"],
-        section#post-content .container article.post>div.comments form.comment-form p.form-submit input,
-        section#post-content .container article.post>div.comments form.comment-form button,
-
-        /* Footer */
-        footer .widget-list button,
-        footer .widget-list input[type="submit"] {
-            background-color: #f2320c !important;
-        }
-
-        /* Opacity .7 */
-        .btn.green-btn,
-        header article#top-bar .get-tickets a {
-            background-color: rgba(242, 50, 12, 0.7) !important;
-        }
-
-        /* Header */
-        header article#top-bar .get-tickets a:hover {
-            box-shadow: 0px 0px 7px 0px rgba(242, 50, 12, 1);
-            -webkit-box-shadow: 0px 0px 7px rgba(242, 50, 12, 1);
-            -moz-box-shadow: 0px 0px 7px 0px rgba(242, 50, 12, 1);
-        }
-
-        /* Schedule */
-        section#schedule div.content article.second-box table tr td ul li:hover svg .clock-svg,
-        section#schedule div.content article.second-box table tr td ul li:hover svg .match-svg,
-
-        /* Footer */
-        .btn.green-btn:focus,
-        .btn.green-btn:hover {
-            -webkit-box-shadow: 0px 0px 10px 0px rgba(242, 50, 12, 1);
-            -moz-box-shadow: 0px 0px 10px 0px rgba(242, 50, 12, 1);
-            box-shadow: 0px 0px 10px 0px rgba(242, 50, 12, 1);
-        }
-
-        /* Schedule */
-        section#schedule div.content article.second-box table tr td ul li:hover {
-            text-shadow: 0px 0px 5px rgba(242, 50, 12, 1);
-        }
-
-        section#signup div.container h3,
-        section#standing article.head h4,
-        section#tickets article.right-box h4,
-        section#schedule div.header article.left-head h3,
-        section#competitors div.container>h3,
-        section#venue h3 {
-            color: #ffffff !important;
-        }
-
-        /* Competitors */
-        section#competitors div.container ul li:hover h3 {
-            text-shadow: 2px 0px 13px rgba(255, 255, 255, 1);
-        }
-
-    </style>
-
-    <link rel="stylesheet" id="bootstrap-css" href="css/css-bootstrap.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="font-awesome-css" href="css/css-font-awesome.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="owlcarousel-css" href="css/css-owl.carousel.min.css" type="text/css" media="all">
-    <link rel="stylesheet" id="tipsy-css" href="css/css-tipsy.css" type="text/css" media="all">
-    <link rel="stylesheet" id="pixieclash_main-css" href="css/css-main.css" type="text/css" media="all">
-    <link rel="stylesheet" id="pixieclash_single-css" href="css/css-single.css" type="text/css" media="all">
-    <link rel="stylesheet" id="pixieclash_bracket-css" href="css/css-bracket.css" type="text/css" media="all">
-    <link rel="stylesheet" id="pixieclash_responsive-css" href="css/css-responsive.css" type="text/css" media="all">
-    <link rel="stylesheet" id="google-fonts-css" href="//fonts.googleapis.com/css?family=Archivo+Narrow%3A400%2C700%7CMontserrat%3A400%2C700%7CRubik%3A400%2C500i%2C700%26amp%3Bsubset%3Dlatin-ext&amp;ver=1.0.0" type="text/css" media="all">
-    <script type="text/javascript" src="js/jquery-jquery.min.js" id="jquery-core-js"></script>
-    <script type="text/javascript" src="js/jquery-jquery-migrate.min.js" id="jquery-migrate-js"></script>
-    <link rel="https://api.w.org/" href="https://pixieclash-theme.pxsquad.com/demo1/wp-json/">
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pixieclash-theme.pxsquad.com/demo1/xmlrpc.php?rsd">
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://pixieclash-theme.pxsquad.com/demo1/wp-includes/wlwmanifest.xml">
-    <meta name="generator" content="WordPress 6.0">
-    <script type="text/javascript">
-        var ajaxurl = 'https://pixieclash-theme.pxsquad.com/demo1/wp-admin/admin-ajax.php';
-
-    </script>
-    <style type="text/css" id="wp-custom-css">
-        header article.head-content {
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #17181D 100%);
-        }
-
-        section#tickets article.right-box a.btn i.icon-custom.ticket {
-            display: none;
-             !important
-        }
-
-        section#tickets article.right-box hr {
-            display: none;
-        }
-
-    </style>
 </head>
 
+<body>
+    <!-- Loading Screen -->
+    <div id="loader-wrapper">
+        <h1 class="loader-logo"><span class="colored">L</span>OADING</h1>
+        <div id="progress"></div>
+    </div>
 
 
 
-
-
-<body class="home blog">
-
-
-    <!-- Current Event 
-    <section id="hero" style="background-image: url('https://tarkovkicktournaments.com/Tarkov-background2.webp')">
-        <div class="container">
-            <article class="hero-info">
-                <section id="standing" style="background-color: rgba(255, 0, 0, 0)">
-                    <div class="container">
-                        <article class="table second ">
-                            <h5 class="group-name">Rankings</h5>
-                            <table class="table-body">
-                                <thead>
-                                    <tr>
-                                        <th>Standings</th>
-                                        <th rel="Exfils">Exfil</th>
-                                        <th rel="PmcKills">PMCs</th>
-                                        <th rel="total">Total</th>
-                                    </tr>
-                                </thead>
-                            </table>
-                        </article>
-                    </div>
-                </section>
-            </article>
-
-            <article class="hero-content">
-                <h3>Current Event</h3>
-                <h2>Takedown Tournament</h2>
-                <p style="background-color: rgba(20, 20, 20, .9); padding: 8px;">The Takedown tournament is an intense solo competition that brings together 12 skilled participants, each with the goal of scoring points by successfully taking down other PMCs and successfully completing Exfils. To add to the challenge, SCAVs will spawn during the event, making it even more difficult for competitors to survive and traverse locations quietly. Despite the competition's nature, the rules are relatively simple. There are minimal restrictions on ammo, armor, weapons, and attachments, allowing competitors to choose the gear they feel most comfortable using. This means that participants will have to rely on their personal skills, strategy, and tactics to secure a win.</p>
-            </article>
-            <div class="clearfix">
-                <a href="https://tarkovkicktournaments.com/Solo.html" class="btn green-btn mr30"><i class="fa fa-plus"></i>Scoreboard</a>
-                <a href="http://tarkovkicktournaments.com/Rules" target="_blank" class="btn green-btn mr30"><i class="fa fa-plus"></i>Rules</a>
-            </div>
-        </div>
-        <br />
-        <br />
-    </section>
--->
-
-
-
-
-
-
-    <!-- Previous Event -->
-    <section id="hero" style="background-image: url('https://pixieclash-theme.pxsquad.com/demo1/wp-content/uploads/2022/06/Frame-6-5.jpg')">
-        <div class="container">
-            <article class="hero-info">
-                <div class="winner active">
-
-                    <div class="winner-team">
-                        <h3>Winner</h3>
-                        <figure>
-                            <img src="images/images-trophy.png" alt="">
-                        </figure>
-                        <span class="team-name">Fiftar</span>
-                    </div>
-
-                    <div class="trophy">
-                        <figure>
-                            <img src="images/images-trophy.png" alt="Trophy">
-                        </figure>
-                    </div>
-
-                    <table class="teams-rank">
-                        <tr>
-                            <td>
-                                <img src="https://tarkovkicktournaments.com/logos/2ksouth.webp" alt="">
-                            </td>
-                            <td>
-                                <h4>2nd place</h4>
-                                <span class="team-name">2KSouth</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="https://tarkovkicktournaments.com/logos/ikingdizzy.webp" alt="">
-                            </td>
-                            <td>
-                                <h4>3rd place</h4>
-                                <span class="team-name">IKingDizzy</span>
-                            </td>
-                        </tr>
-                    </table>
+    <!-- /// HERO SECTION /// -->
+    <div id="hero-section" class="medium-margin">
+        <div class="row hero-unit">
+            <div class="container">
+                <div class="hero-caption">
+                    <!-- Main Tagline -->
+                    <h1>Kick Exclusive <span class="colored">Tarkov Tournaments</span></h1>
                 </div>
-            </article>
-
-            <article class="hero-content">
-                <h3>Last Event</h3>
-                <h2>Takedown Tournament</h2>
-                <p>The Takedown tournament is an intense solo competition that brings together 12 skilled participants, each with the goal of scoring points by successfully taking down other PMCs and successfully completing Exfils. To add to the challenge, SCAVs will spawn during the event, making it even more difficult for competitors to survive and traverse locations quietly. Despite the competition's nature, the rules are relatively simple. There are minimal restrictions on ammo, armor, weapons, and attachments, allowing competitors to choose the gear they feel most comfortable using. This means that participants will have to rely on their personal skills, strategy, and tactics to secure a win.
-                    <br />
-                    <br />
-                </p>
-            </article>
-            <div class="clearfix">
             </div>
         </div>
-    </section>
+    </div>
 
 
 
-    <!-- Next Event Details -->
-    <section id="venue" style="background-color: #1F2022;">
-        <div class="container">
-            <h3>More Info About</h3>
-            <h2>Our Next Event</h2>
-            <article class="left-box">
-                <div class="preview-box" style="background-image: url('https://tarkovkicktournaments.com/events/western.png'); background-size: cover;">
-                    <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
-                    <p class="caption">
-                        <span class="channel-name">Escape From Tarkov</span>
-                        <span class="channel-title">Western Showdown</span>
+
+    <!-- /// Main Container /// -->
+    <div class="container">
+        <div class="row medium-margin justify-content-center">
+            <div id="games" class="col-md-12 large-margin">
+                <a href="games"></a>
+                <div class="row heading tiny-margin">
+                    <div class="col-md-auto">
+                        <h1 class="animation-element slide-down">SIGNUP <span class="colored">NOW</span></h1>
+                    </div>
+                    <div class="col">
+                        <hr class="animation-element extend">
+                    </div>
+                </div>
+                <div class="games-portfolio ">
+                    <div class="col-md-12 row game-card pc new">
+                        <div class="col-lg-12 col-xl-5 game-card-left">
+                            <img src="/images/western.png" data-src="" class="img-fluid b-lazy" alt="video thumbnail">
+                        </div>
+                        <div class="col-lg-12 col-xl-7 game-card-right">
+                            <h2 class="short-hr-left">THE WESTERN SHOWDOWN</h2>
+                            <p class="tags"><span class="subtle">Offline Event | Meme Event</span> </p>
+                            <p class="game-description">The Western Showdown is a thrilling and captivating solo competition that transports its 12 skilled participants back to the era of the old west. With the aim of scoring points by successfully taking down other PMCs and completing Exfils, the event promises to be an exciting and challenging experience for all participants.</p>
+                            <div class="steam-btn">
+                                <button class="button-western" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScy2UVTSqxJm_EBOwAtMePCcX4INj0p5o9nVtHuGOJg3ffWdw/viewform';">Signup</button>
+                            </div>
+                            <div class="reviews">
+                                <a href="">
+                                    <div class="score-card">
+                                        <p class="score">12</p>
+                                        <p>Competitors</p>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="score-card">
+                                        <p class="score">5</p>
+                                        <p>Raids</p>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="score-card">
+                                        <p class="score">1</p>
+                                        <p>Victor</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- /// ABOUT SECTION /// -->
+        <div id="about" class="larvge-margin">
+            <a href="about"></a>
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">ABOUT <span class="colored">US</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="small-margin">We are a dedicated team of content creators, designers, shoutcasters, and most importantly gaming enthusiasts seeking to showcase <span class="colored">YOUR</span> gameplay in upcoming tournaments.
+                    <br/><br/>
+                        We recognize that many creators don't have access to big exposure opportunities. So, we aim to offer the opportunity for any content creator of any size to showcase their gameplay on the <span class="colored">front page of Kick</span>.
                     </p>
+                    <button class="button-western" onclick="window.location.href='https://discord.com/invite/zE2fScNBmh';">Event Discord</button>
                 </div>
-            </article>
-
-
-            <article class="right-box">
-                <p>The Western Showdown is a thrilling and captivating solo competition that transports its 12 skilled participants back to the era of the old west. With the aim of scoring points by successfully taking down other PMCs and completing Exfils, the event promises to be an exciting and challenging experience for all participants. One of the unique aspects of this competition is that SCAVs will not spawn during the event, thereby creating an environment that fosters tactical interactions between players. To ensure a level playing field, all participants are required to use a specific loadout that has been carefully curated for the event. Participants are encouraged to embrace the theme of the old west and fully immerse themselves in the spirit of the event.
-                </p>
-
-                <ul class="venue-info">
-                    <li class="first">
-                        <span class="time"><i class="icon-custom clock"></i> Date/Time (EST)</span>
-                        <span class="date">4/29/22 at 2pm</span>
-                    </li>
-                    <li class="two">
-                        <span class="time"><i class="icon-custom trophy"></i> Prizepool</span>
-                        <span class="date">N/A</span>
-                    </li>
-                    <li class="three">
-                        <span class="time"><i class="icon-custom match"></i> Raids</span>
-                        <span class="date">5</span>
-                    </li>
-                </ul>
-            </article>
+                <div class="col-md-6">
+                    <img id="support-image" src="images/tarkov3.jpg" data-src="images/digital_collage.png" class="img-fluid b-lazy" alt="digital collage">
+                </div>
+            </div>
         </div>
+
+
         <br />
-        <a href="http://tarkovkicktournaments.com/Rules/western.html" target="_blank" class="btn green-btn mr30"><i class="fa fa-plus"></i>Rules</a>
         <br />
         <br />
-    </section>
+        <br />
+        <br />
+        <br />
+        <br />
 
 
 
-
-
-
-    <!-- Signup Header -->
-    <section id="signup" style="background-image: url('https://pixieclash-theme.pxsquad.com/demo1/wp-content/uploads/2022/06/Frame-19-1.jpg');">
-        <div class="container">
-            <h2>SIGN UP</h2>
-            <h4>FIGHT HARD &amp; CLAIM VICTORY</h4>
-
-            <p>Register yourself, or your team, for an event by clicking the links below. Don't miss your chance to participate! All applicants must be members of the Discord server linked below and in the tournament channel 2 hours before the event to participate. Competitors must also confirm attendance in a Discord poll.</p>
-            <br />
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScy2UVTSqxJm_EBOwAtMePCcX4INj0p5o9nVtHuGOJg3ffWdw/viewform" target="_blank" class="btn green-btn mr30"><i class="fa fa-plus"></i>Event Registration</a>
-            <a href="https://discord.gg/zE2fScNBmh" target="_blank" class="btn green-btn mr30"><i class="fa fa-plus"></i>Discord</a>
+        <!-- /// GAMES SECTION /// -->
+        <div id="games" class="large-margin">
+            <a href="games"></a>
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">OUR <span class="colored">GAMES</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="games-portfolio ">
+                <div class="row game-card pc new">
+                    <div class="col-lg-12 col-xl-5 game-card-left">
+                        <img src="images/tarkov.jpg" data-src="images/game3.jpg" class="img-fluid b-lazy" alt="video thumbnail">
+                    </div>
+                    <div class="col-lg-12 col-xl-7 game-card-right">
+                        <h2 class="short-hr-left">ESCAPE FROM TARKOV</h2>
+                        <p class="tags"><span class="subtle">Tactical FPS | PC</span> </p>
+                        <p class="game-description">Escape from Tarkov is a multiplayer tactical first-person shooter video game in development by Battlestate Games set in the fictional Norvinsk region, where a war is taking place between two private military companies.</p>
+                        <div class="reviews">
+                            <a href="">
+                                <div class="score-card">
+                                    <p class="score">6</p>
+                                    <p>Events</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="score-card">
+                                    <p class="score">12</p>
+                                    <p>Competitors</p>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="score-card">
+                                    <p class="score">5</p>
+                                    <p>Maps</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
 
 
 
-    <script>
-        fetch('https://script.google.com/macros/s/AKfycbx9ZpKodp8jxLP9MlqMZJuV0kRXdLmMbwHt5YAaJXuqmouIw6h9r8rTpC6iZP_oVF51Gw/exec')
-            .then(response => response.json())
-            .then(data => {
-                var table = document.createElement('table');
-                table.className = 'table-body';
-                var tbody = document.createElement('tbody');
-                for (var i = 0; i < data.length; i++) {
-                    var row = document.createElement('tr');
-                    for (var j = 0; j < data[i].length; j++) {
-                        var cell = document.createElement('td');
-                        cell.textContent = data[i][j];
-                        row.appendChild(cell);
-                    }
-                    tbody.appendChild(row);
-                }
-                table.appendChild(tbody);
-                document.querySelector('article.table.second').appendChild(table);
-            });
+        <!-- /// Rules Section /// -->
+        <div id="careers" class="large-margin">
+            <a href="careers"></a><!-- Nav Anchor -->
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">EVENT <span class="colored">RULES</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row medium-margin">
+                <div class="col-md-11">
+                    <h2 class="short-hr-left">EVENT RULESETS</h2>
+                    <p>Use the links below to explore the rules for all of our event types for Escape From Tarkov.</p><br>
+                </div>
 
-    </script>
+                <div class="col-md-4">
+                    <div class="job-card-takedown">
+                        <h3 class="colored-takedown">Takedown Tournament</h3>
+                        <p>Our flagship event.</p>
+                        <button class="button-takedown" onclick="window.location.href='https://tarkovkicktournaments.com/takedown.html';">Rules</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="job-card-clash">
+                        <h3 class="colored-clash">Kalashnikov Clash</h3>
+                        <p>A solo event featuring the AK platform.</p>
+                        <button class="button-clash" onclick="window.location.href='https://tarkovkicktournaments.com/Rules/clash.html';">Rules</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="job-card-western">
+                        <h3 class="colored-western">Western Showdown</h3>
+                        <p>A solo event featuring western rifles.</p>
+                        <button class="button-western" onclick="window.location.href='https://tarkovkicktournaments.com/western.html';">Rules</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="job-card-cops">
+                        <h3 class="colored-cops">Mall Cops</h3>
+                        <p>Shotguns, Glocks, and a mall.</p>
+                        <button class="button-cops" onclick="window.location.href='https://tarkovkicktournaments.com/cops.html';">Rules</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="job-card-takedown">
+                        <h3 class="colored-takedown">Kill Confirmed</h3>
+                        <p>A team based Takedown Tournament.</p>
+                        <button class="button-takedown" onclick="window.location.href='https://tarkovkicktournaments.com/killconfirmed.html';">Rules</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="job-card-cops">
+                        <h3 class="colored-cops">Limitless Legion</h3>
+                        <p>An online solo event.</p>
+                        <button class="button-cops" onclick="window.location.href='https://tarkovkicktournaments.com/legion.html';">Rules</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
+        <!-- /// TEAM SECTION /// -->
+        <div id="team" class="large-margin">
+            <a href="team"></a>
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">THE <span class="colored">TEAM</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row medium-margin">
+                <div id="full-row" class="row text-center">
 
-    <style>
-        .wp-container-1>.alignleft {
-            float: left;
-            margin-inline-start: 0;
-            margin-inline-end: 2em;
-        }
+                    <div class="col-md-3 team-card">
+                        <figure>
+                            <img src="logos/doctorsoup143.png" data-src="images/team1.jpg" class="img-fluid b-lazy" alt="teammember">
+                        </figure>
+                        <p class="team-name">DoctorSoup143</p>
+                        <p class="subtle">Organizer</p>
+                        <button class="button" onclick="window.location.href='https://kick.com/doctorsoup143';">Watch</button>
+                    </div>
 
-        .wp-container-1>.alignright {
-            float: right;
-            margin-inline-start: 2em;
-            margin-inline-end: 0;
-        }
+                    <div class="col-md-3 team-card">
+                        <figure>
+                            <img src="logos/frosty.webp" data-src="" class="img-fluid b-lazy" alt="teammember">
+                        </figure>
+                        <p class="team-name">FrostyReal</p>
+                        <p class="subtle">Shoutcaster</p>
+                        <button class="button" onclick="window.location.href='https://kick.com/frostyreal';">Watch</button>
+                    </div>
 
-        .wp-container-1>.aligncenter {
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
+                    <div class="col-md-3 team-card">
+                        <figure>
+                            <img src="logos/mastamind.webp" data-src="images/team3.jpg" class="img-fluid b-lazy" alt="teammember">
+                        </figure>
+                        <p class="team-name">MastaMind</p>
+                        <p class="subtle">Shoutcaster</p>
+                        <button class="button" onclick="window.location.href='https://kick.com/mastamind';">Watch</button>
+                    </div>
 
-    </style>
-    <style>
-        .wp-container-2>.alignleft {
-            float: left;
-            margin-inline-start: 0;
-            margin-inline-end: 2em;
-        }
+                    <div class="col-md-3 team-card">
+                        <figure>
+                            <img src="images/placeholder.jpg" data-src="images/team4.jpg" class="img-fluid b-lazy" alt="teammember">
+                        </figure>
+                        <p class="team-name">TBD</p>
+                        <p class="subtle">Gamemaster</p>
+                        <button class="button" onclick="window.location.href='https://google.com';">Watch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        .wp-container-2>.alignright {
-            float: right;
-            margin-inline-start: 2em;
-            margin-inline-end: 0;
-        }
 
-        .wp-container-2>.aligncenter {
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
 
-    </style>
-    <script data-cfasync="false" src="js/cloudflare-static-email-decode.min.js"></script>
-    <script type="text/javascript" src="js/js-bootstrap.min.js" id="bootstrap-js"></script>
-    <script type="text/javascript" src="js/js-owl.carousel.min.js" id="carousel-js"></script>
-    <script type="text/javascript" src="js/js-jquery.panzoom.min.js" id="panzoom-js"></script>
-    <script type="text/javascript" src="js/js-jquery.countdown.min.js" id="pixieclash_countdown-js"></script>
-    <script type="text/javascript" src="js/js-jquery.tipsy.js" id="tipsy-js"></script>
-    <script type="text/javascript" src="js/js-main.js" id="pixieclash_mainscript-js"></script>
-    <script type="text/javascript" id="pixieclash_mainscript-js-after">
-        jQuery("#countdown").countdown("2018/01/01 18:46:59", function(event) {
-            var jQuerythis = jQuery(this).html(event.strftime('' +
-                '<li class="countDays"><span class="num">%-D<span class="description">day%!d' +
-                '<li class="countHours"><span class="num">%H<span class="description">hour%!H' +
-                '<li class="countMinutes"><span class="num">%M<span class="description">minute%!m' +
-                '<li class="countSeconds"><span class="num">%S<span class="description">second%!S'));
-        });
-        jQuery(".panzoom-elements").panzoom({
-            minScale: 0,
-            $zoomIn: jQuery("#brackets").find(".zoomIn"),
-            $zoomOut: jQuery("#brackets").find(".zoomOut"),
-        });
-        jQuery('[rel=tipsy]').tipsy({
-            fade: true,
-            gravity: 'w'
-        });
+        <!-- /// CAREERS SECTION /// -->
+        <div id="careers" class="large-margin">
+            <a href="careers"></a><!-- Nav Anchor -->
+            <div class="row heading tiny-margin">
+                <div class="col-md-auto">
+                    <h1 class="animation-element slide-down">WE'RE <span class="colored">EXPANDING</span></h1>
+                </div>
+                <div class="col">
+                    <hr class="animation-element extend">
+                </div>
+            </div>
+            <div class="row medium-margin">
+                <div class="col-md-11">
+                    <h2 class="short-hr-left">EVENT OPENINGS</h2>
+                    <p>Are you a talented and motivated content creator? Are you looking to get your foot in the door and learn to shoutcast? Then we would love to have you in our team.</p><br>
+                </div>
 
-    </script>
-    <script type="text/javascript" src="js/js-brackets.js" id="pixieclash_brackets-js"></script>
-</body>
+                <div class="col-md-4">
+                    <div class="job-card">
+                        <h3 class="colored">SHOUTCASTER</h3>
+                        <p>Cast upcoming events.</p>
+                        <button class="button">Apply</button>
+                    </div>
+                </div>
 
-</html>
+                <div class="col-md-4">
+                    <div class="job-card">
+                        <h3 class="colored">GAMEMASTER</h3>
+                        <p>Ensure fair play.</p>
+                        <button class="button">Apply</button>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="job-card">
+                        <h3 class="colored">MODERATOR</h3>
+                        <p>Moderate the community.</p>
+                        <button class="button">Apply</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- //// SCRIPTS //// -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/blazy.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery-modal-video.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/strider.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0K1n4Y5N2SwIeHETzvqP5ycEMdr-QLAA"></script>
+
+</body></html>
