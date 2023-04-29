@@ -573,7 +573,7 @@ button {
 /* --------------------------- /////////// IV. HERO SECTION /////////// --------------------------- */
 /* -Hero Image- */
 .hero-unit {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tarkov2.jpg);
     background-size: cover;
     background-position: center;
     min-height: 720px;
