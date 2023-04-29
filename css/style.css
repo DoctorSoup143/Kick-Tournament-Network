@@ -52,6 +52,11 @@ Primary Color: #E48632;
     src: url('../Anurati-Regular.otf');
 }
 
+@font-face {
+    font-family: 'Config';
+    src: url('../ConfigCondensed.ttf');
+}
+
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
@@ -139,26 +144,28 @@ h1 {
 }
 
 h2 {
-    font-size: 1.50rem;
+    font-size: 2rem;
     /* 24px */
     font-weight: 500;
+    font-family: 'Config';
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     /* 20px */
     font-weight: 400;
+    font-family: 'Config';
 }
 
 h4 {
-    font-size: 1.10rem;
+    font-size: 1.3rem;
     font-weight: 300;
+    font-family: 'Config';
 }
 
 p {
-    font-family: Open Sans, sans-serif;
-    font-size: 0.9375rem;
-    /* 15px */
+    font-family: 'Config';
+    font-size: 1.2rem;
     padding: 5px 5px 5px 0;
     margin: 0;
 }
@@ -169,6 +176,8 @@ p {
 
 .subtle {
     color: #999;
+    font-family: 'Config';
+    font-size:  1.1rem;
 }
 
 .spaced {
@@ -300,7 +309,8 @@ button {
     border: none;
     border-radius: 2px;
     color: #FFF;
-    font-family: Raleway, sans-serif;
+    font-family: 'Config';
+    font-size:  1.3rem;
     font-weight: 500;
     display: block;
     height: auto;
@@ -325,8 +335,9 @@ button {
     border: none;
     border-radius: 2px;
     color: #FFF;
-    font-family: Raleway, sans-serif;
-    font-weight: 500;
+    font-family: 'Config';
+    font-size:  1.3rem;
+    font-weight: 400;
     display: block;
     height: auto;
     width: auto;
@@ -351,7 +362,8 @@ button {
     border: none;
     border-radius: 2px;
     color: #FFF;
-    font-family: Raleway, sans-serif;
+    font-family: 'Config';
+    font-size:  1.3rem;
     font-weight: 500;
     display: block;
     height: auto;
@@ -377,7 +389,8 @@ button {
     border: none;
     border-radius: 2px;
     color: #FFF;
-    font-family: Raleway, sans-serif;
+    font-family: 'Config';
+    font-size:  1.3rem;
     font-weight: 500;
     display: block;
     height: auto;
@@ -403,7 +416,8 @@ button {
     border: none;
     border-radius: 2px;
     color: #FFF;
-    font-family: Raleway, sans-serif;
+    font-family: 'Config';
+    font-size:  1.3rem;
     font-weight: 500;
     display: block;
     height: auto;
@@ -594,8 +608,8 @@ button {
 
 .hero-caption h1 {
     font-weight: 300;
-    font-size: 3rem;
-    font-family: Raleway, sans-serif;
+    font-size: 3.5rem;
+    font-family: 'Config';
 }
 
 /* --------------------------- /////////// V. ABOUT SECTION /////////// --------------------------- */
