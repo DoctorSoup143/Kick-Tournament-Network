@@ -1,15 +1,4 @@
 /*------------------------------------------------------------------
-[Master Stylesheet]
-
-Author: AtypicalThemes
-Template: Strider - A Game Studio Template
-Version:	1.0
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
-
--------------------------------------------------------------------
 Table of contents
 
     I.General
@@ -177,7 +166,7 @@ p {
 .subtle {
     color: #999;
     font-family: 'Config';
-    font-size:  1.1rem;
+    font-size: 1.1rem;
 }
 
 .spaced {
@@ -239,10 +228,50 @@ ul {
 }
 
 /* -<hr>- */
-hr {
+.hr-base {
     width: 100%;
     height: 2px;
     background: #E48632;
+    margin: 20px 0;
+    border: none;
+}
+
+.hr-white {
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    margin: 20px 0;
+    border: none;
+}
+
+.hr-takedown {
+    width: 100%;
+    height: 2px;
+    background: #46b531;
+    margin: 20px 0;
+    border: none;
+}
+
+.hr-clash {
+    width: 100%;
+    height: 2px;
+    background: #cf4e00;
+    margin: 20px 0;
+    border: none;
+}
+
+.hr-western {
+    width: 100%;
+    height: 2px;
+    background: #9c6001;
+    margin: 20px 0;
+    border: none;
+}
+
+.hr-cops {
+    width: 100%;
+    height: 2px;
+    background: #005cab;
     margin: 20px 0;
     border: none;
 }
@@ -310,7 +339,7 @@ button {
     border-radius: 2px;
     color: #FFF;
     font-family: 'Config';
-    font-size:  1.3rem;
+    font-size: 1.3rem;
     font-weight: 500;
     display: block;
     height: auto;
@@ -336,7 +365,7 @@ button {
     border-radius: 2px;
     color: #FFF;
     font-family: 'Config';
-    font-size:  1.3rem;
+    font-size: 1.3rem;
     font-weight: 400;
     display: block;
     height: auto;
@@ -363,7 +392,7 @@ button {
     border-radius: 2px;
     color: #FFF;
     font-family: 'Config';
-    font-size:  1.3rem;
+    font-size: 1.3rem;
     font-weight: 500;
     display: block;
     height: auto;
@@ -390,7 +419,7 @@ button {
     border-radius: 2px;
     color: #FFF;
     font-family: 'Config';
-    font-size:  1.3rem;
+    font-size: 1.3rem;
     font-weight: 500;
     display: block;
     height: auto;
@@ -417,7 +446,7 @@ button {
     border-radius: 2px;
     color: #FFF;
     font-family: 'Config';
-    font-size:  1.3rem;
+    font-size: 1.3rem;
     font-weight: 500;
     display: block;
     height: auto;
