@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
+
     <!-- META TAGS -->
     <meta charset="utf-8">
     <meta name="author" content="DoctorSoup143">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <base href="/" />
 
 
     <title>Kick Exclusive Tournaments</title>
@@ -57,398 +59,49 @@
     <!-- STYLES -->
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <!-- FontAwesome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <!-- Animations -->
-    <link href="css/animations.css" rel="stylesheet">
+    <link href="/css/animations.css" rel="stylesheet">
     <!-- Lightbox -->
-    <link href="css/lightbox.min.css" rel="stylesheet">
+    <link href="/css/lightbox.min.css" rel="stylesheet">
     <!-- Video Lightbox -->
-    <link href="css/modal-video.min.css" rel="stylesheet">
+    <link href="/css/modal-video.min.css" rel="stylesheet">
     <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="Kick Events.styles.css" rel="stylesheet" />
+    <!-- JSON Stuff-->
+    <link href="manifest.json" rel="manifest" />
+
+    <!-- Favicon and Apple Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
 </head>
 
 <body>
+    <!-- This has to stay for some god damn reason-->
+    <div id="app">
+    </div>
+
     <!-- Loading Screen -->
     <div id="loader-wrapper">
         <h1 class="loader-logo"><span class="colored">L</span>OADING</h1>
         <div id="progress"></div>
     </div>
-
-
-
-    <!-- /// HERO SECTION /// -->
-    <div id="hero-section" class="medium-margin">
-        <div class="row hero-unit">
-            <div class="container">
-                <div class="hero-caption">
-                    <!-- Main Tagline -->
-                    <h1><b>Kick Exclusive <span class="colored">Tarkov Tournaments</span></b></h1>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
-    <!-- /// Main Container /// -->
-    <div class="container">
-        <!-- Signup 
-        <div class="row medium-margin justify-content-center">
-            <div id="games" class="col-md-12 large-margin">
-                <a href="games"></a>
-                <div class="row heading tiny-margin">
-                    <div class="col-md-auto">
-                        <h1 class="animation-element slide-down">SIGNUP <span class="colored">NOW</span></h1>
-                    </div>
-                    <div class="col">
-                        <hr class="animation-element extend hr-base">
-                    </div>
-                </div>
-                <div class="games-portfolio ">
-                    <div class="col-md-12 row game-card pc new">
-                        <div class="col-lg-12 col-xl-5 game-card-left">
-                            <img src="/images/western.png" data-src="" class="img-fluid b-lazy" alt="video thumbnail">
-                        </div>
-                        <div class="col-lg-12 col-xl-7 game-card-right">
-                            <h2 class="short-hr-left">THE WESTERN SHOWDOWN</h2>
-                            <p class="tags"><span class="subtle">Offline Event | Meme Event</span> </p>
-                            <p class="game-description">The Western Showdown is a thrilling and captivating solo competition that transports its 12 skilled participants back to the era of the old west. With the aim of scoring points by successfully taking down other PMCs and completing Exfils, the event promises to be an exciting and challenging experience for all participants.</p>
-                            <div class="steam-btn">
-                                <button class="button-western" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScy2UVTSqxJm_EBOwAtMePCcX4INj0p5o9nVtHuGOJg3ffWdw/viewform';">Signup</button>
-                            </div>
-                            <div class="reviews">
-                                <a href="">
-                                    <div class="score-card">
-                                        <p class="score">12</p>
-                                        <p>Competitors</p>
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div class="score-card">
-                                        <p class="score">5</p>
-                                        <p>Raids</p>
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div class="score-card">
-                                        <p class="score">1</p>
-                                        <p>Victor</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
-
-        <!-- Upcoming -->
-        <div class="row medium-margin justify-content-center">
-            <div id="games" class="col-md-12 large-margin">
-                <a href="games"></a>
-                <div class="row heading tiny-margin">
-                    <div class="col-md-auto">
-                        <h1 class="animation-element slide-down">NEXT <span class="colored">EVENT</span></h1>
-                    </div>
-                    <div class="col">
-                        <hr class="animation-element extend hr-base">
-                    </div>
-                </div>
-                <div class="games-portfolio ">
-                    <div class="col-md-12 row game-card pc new">
-                        <div class="col-lg-12 col-xl-5 game-card-left">
-                            <img src="/images/takedown.png" data-src="" class="img-fluid b-lazy" alt="video thumbnail">
-                        </div>
-                        <div class="col-lg-12 col-xl-7 game-card-right">
-                            <h2 class="short-hr-left">KILL CONFIRMED</h2>
-                            <p class="tags"><span class="subtle">Offline Event | Team Event</span> </p>
-                            <p class="game-description">The Kill Confirmed tournament is an intense solo competition that brings together 12 skilled participants, each with the goal of scoring points by successfully taking down other PMCs and exfiltrating with the armband within the opposite colored enemy team's backpack. The team who extracts with the most armbands from the enemy team wins that round. There are minimal restrictions on ammo, armor, weapons, and attachments, allowing competitors to choose the gear they feel most comfortable using.</p>
-                            <div class="reviews">
-                                <a href="">
-                                    <div class="score-card">
-                                        <p class="score">12</p>
-                                        <p>Competitors</p>
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div class="score-card">
-                                        <p class="score">2</p>
-                                        <p>Teams</p>
-                                    </div>
-                                </a>
-                                <a href="">
-                                    <div class="score-card">
-                                        <p class="score">6</p>
-                                        <p>Victors</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-        <!-- /// ABOUT SECTION /// -->
-        <div id="about" class="larvge-margin">
-            <a href="about"></a>
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">ABOUT <span class="colored">US</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend hr-base">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="small-margin">We are a dedicated team of content creators, designers, shoutcasters, and most importantly gaming enthusiasts seeking to showcase <span class="colored">YOUR</span> gameplay in upcoming tournaments.
-                        <br /><br />
-                        We recognize that many creators don't have access to big exposure opportunities. So, we aim to offer the opportunity for any content creator of any size to showcase their gameplay on the <span class="colored">front page of Kick</span>.
-                    </p>
-                    <button class="button-western" onclick="window.location.href='https://discord.com/invite/zE2fScNBmh';">Event Discord</button>
-                </div>
-                <div class="col-md-6">
-                    <img id="support-image" src="images/All%20Events.png" data-src="images/digital_collage.png" class="img-fluid b-lazy" alt="digital collage">
-                </div>
-            </div>
-        </div>
-
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
-
-
-        <!-- /// GAMES SECTION /// -->
-        <div id="games" class="large-margin">
-            <a href="games"></a>
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">OUR <span class="colored">GAMES</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend hr-base">
-                </div>
-            </div>
-            <div class="games-portfolio ">
-                <div class="row game-card pc new">
-                    <div class="col-lg-12 col-xl-5 game-card-left">
-                        <img src="images/tarkov.jpg" data-src="images/game3.jpg" class="img-fluid b-lazy" alt="video thumbnail">
-                    </div>
-                    <div class="col-lg-12 col-xl-7 game-card-right">
-                        <h2 class="short-hr-left">ESCAPE FROM TARKOV</h2>
-                        <p class="tags"><span class="subtle">Tactical FPS | PC</span> </p>
-                        <p class="game-description">Escape from Tarkov is a multiplayer tactical first-person shooter video game in development by Battlestate Games set in the fictional Norvinsk region, where a war is taking place between two private military companies.</p>
-                        <div class="reviews">
-                            <a href="">
-                                <div class="score-card">
-                                    <p class="score">6</p>
-                                    <p>Events</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="score-card">
-                                    <p class="score">12</p>
-                                    <p>Competitors</p>
-                                </div>
-                            </a>
-                            <a href="">
-                                <div class="score-card">
-                                    <p class="score">5</p>
-                                    <p>Maps</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!-- /// Rules Section /// -->
-        <div id="careers" class="large-margin">
-            <a href="careers"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">EVENT <span class="colored">RULES</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend hr-base">
-                </div>
-            </div>
-            <div class="row medium-margin">
-                <div class="col-md-11">
-                    <h2 class="short-hr-left">EVENT RULESETS</h2>
-                    <p>Use the links below to explore the rules for all of our event types for Escape From Tarkov.</p><br>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card-takedown">
-                        <h3 class="colored-takedown">Takedown Tournament</h3>
-                        <p>Our flagship event.</p>
-                        <button class="button-takedown" onclick="window.location.href='https://tarkovkicktournaments.com/takedown.html';">Rules</button>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card-clash">
-                        <h3 class="colored-clash">Kalashnikov Clash</h3>
-                        <p>A solo event featuring the AK platform.</p>
-                        <button class="button-clash" onclick="window.location.href='https://tarkovkicktournaments.com/Rules/clash.html';">Rules</button>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card-western">
-                        <h3 class="colored-western">Western Showdown</h3>
-                        <p>A solo event featuring western rifles.</p>
-                        <button class="button-western" onclick="window.location.href='https://tarkovkicktournaments.com/western.html';">Rules</button>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card-cops">
-                        <h3 class="colored-cops">Mall Cops</h3>
-                        <p>Shotguns, Glocks, and a mall.</p>
-                        <button class="button-cops" onclick="window.location.href='https://tarkovkicktournaments.com/cops.html';">Rules</button>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card-takedown">
-                        <h3 class="colored-takedown">Kill Confirmed</h3>
-                        <p>A team based Takedown Tournament.</p>
-                        <button class="button-takedown" onclick="window.location.href='https://tarkovkicktournaments.com/killconfirmed.html';">Rules</button>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card-cops">
-                        <h3 class="colored-cops">Limitless Legion</h3>
-                        <p>An online solo event.</p>
-                        <button class="button-cops" onclick="window.location.href='https://tarkovkicktournaments.com/legion.html';">Rules</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!-- /// TEAM SECTION /// -->
-        <div id="team" class="large-margin">
-            <a href="team"></a>
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">THE <span class="colored">TEAM</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend hr-base">
-                </div>
-            </div>
-            <div class="row medium-margin">
-                <div id="full-row" class="row text-center">
-
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="logos/doctorsoup143.png" data-src="images/team1.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">DoctorSoup143</p>
-                        <p class="subtle">Organizer</p>
-                        <button class="button-takedown" onclick="window.location.href='https://kick.com/doctorsoup143';">Watch</button>
-                    </div>
-
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="logos/frosty.webp" data-src="" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">FrostyReal</p>
-                        <p class="subtle">Shoutcaster</p>
-                        <button class="button-takedown" onclick="window.location.href='https://kick.com/frostyreal';">Watch</button>
-                    </div>
-
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="logos/mastamind.webp" data-src="images/team3.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">MastaMind</p>
-                        <p class="subtle">Shoutcaster</p>
-                        <button class="button-takedown" onclick="window.location.href='https://kick.com/mastamind';">Watch</button>
-                    </div>
-
-                    <div class="col-md-3 team-card">
-                        <figure>
-                            <img src="images/placeholder.jpg" data-src="images/team4.jpg" class="img-fluid b-lazy" alt="teammember">
-                        </figure>
-                        <p class="team-name">TBD</p>
-                        <p class="subtle">Gamemaster</p>
-                        <button class="button-takedown" onclick="window.location.href='https://google.com';">Watch</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <!-- /// CAREERS SECTION /// -->
-        <div id="careers" class="large-margin">
-            <a href="careers"></a><!-- Nav Anchor -->
-            <div class="row heading tiny-margin">
-                <div class="col-md-auto">
-                    <h1 class="animation-element slide-down">WE'RE <span class="colored">EXPANDING</span></h1>
-                </div>
-                <div class="col">
-                    <hr class="animation-element extend hr-base">
-                </div>
-            </div>
-            <div class="row medium-margin">
-                <div class="col-md-11">
-                    <h2 class="short-hr-left">EVENT OPENINGS</h2>
-                    <p>Are you a talented and motivated content creator? Are you looking to get your foot in the door and learn to shoutcast? Then we would love to have you in our team.</p><br>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card">
-                        <h3 class="colored">SHOUTCASTER</h3>
-                        <p>Cast upcoming events.</p>
-                        <button class="button">Apply</button>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card">
-                        <h3 class="colored">GAMEMASTER</h3>
-                        <p>Ensure fair play.</p>
-                        <button class="button">Apply</button>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="job-card">
-                        <h3 class="colored">MODERATOR</h3>
-                        <p>Moderate the community.</p>
-                        <button class="button">Apply</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
 
     <!-- //// SCRIPTS //// -->
@@ -462,7 +115,9 @@
     <script src="js/validator.min.js"></script>
     <script src="js/strider.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0K1n4Y5N2SwIeHETzvqP5ycEMdr-QLAA"></script>
-
+    <!-- IDK What these are-->
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 
 </html>
