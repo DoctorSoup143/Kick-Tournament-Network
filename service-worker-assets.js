@@ -166,7 +166,7 @@
     },
     {
       "hash": "sha256-l95BLmBWY+l6RsXAFJyP9hZ9845sN+vMoemsXFKuheQ=",
-      "url": "css\/boostrap.min.css"
+      "url": "css\/bootstrap.min.css"
     },
     {
       "hash": "sha256-hhIHzmHPfEL512EAfznqo0htqRvUP1SwzL7bI14FgbQ=",
