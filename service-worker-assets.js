@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-EFY+8F\/aa8SoLnILpn3nRxamk313ZbARsHN6K9aX0Qo=",
+      "hash": "sha256-XZJgs733A29cxDoniIIshvGeBFy8PPMPH6CgVcR0iDE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-CIc\/Mz4qHhwMysvNz\/P8QI0Hc1pB7F2crU3eK\/pluD4=",
+      "hash": "sha256-agERRMRwR2nlrZ5gQadKr9gM9FpXzYTUOacjGZNNrgA=",
       "url": "_framework\/Kick Events.dll"
     },
     {
@@ -161,7 +161,7 @@
       "url": "css\/animations.css"
     },
     {
-      "hash": "sha256-o+s+zjg4bkoEPKK\/D42nbrhvIQSKaGDfyXUpkUYGzDg=",
+      "hash": "sha256-NnO2T48l47QN+OHHiIay7XF1foK\/KGWH2NnTzwR9Yy8=",
       "url": "css\/app.css"
     },
     {
@@ -313,8 +313,12 @@
       "url": "images\/western-showdown.png"
     },
     {
-      "hash": "sha256-bfOgqT91LEsdE0IqKHmcVSqpskAcOXRnRo5pUx+LzUI=",
+      "hash": "sha256-whipc\/cl+VAMYMoEGG91KxNCqDc7LGJ0Ga9jklQQbGM=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-lLRQluZ5u69aQ1yVbFGGTtPbOnoa2lzsKMUVnfCydB0=",
+      "url": "js\/AddToHomeScreen.js"
     },
     {
       "hash": "sha256-gR4XnY5EelIT6gnOGH6orRk3glf6RAEEvotP+o\/T9qc=",
@@ -441,5 +445,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "U8RbUnUT"
+  "version": "Q6uBNBFA"
 };
