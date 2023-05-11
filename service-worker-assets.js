@@ -237,6 +237,18 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-89RbmyvmL2jHUcEXBSLuWz0StBkn9PcNS1cB1nLIyVI=",
+      "url": "images\/180.png"
+    },
+    {
+      "hash": "sha256-+qDQ4adMQJDeV81ChwNClxmNy20uBIDyumLtSkrZrJw=",
+      "url": "images\/192.png"
+    },
+    {
+      "hash": "sha256-Tf04BZZ\/OXfEqdJRXzuKTMkrj9qR4whBcYtNXmOeL54=",
+      "url": "images\/96.png"
+    },
+    {
       "hash": "sha256-1rK05sPMrnSpMAtFDlZv\/WMQMvH8n6ZY3ijtrSzg2To=",
       "url": "images\/All Events.png"
     },
@@ -301,7 +313,7 @@
       "url": "images\/western-showdown.png"
     },
     {
-      "hash": "sha256-dSAfuMXMVU35PD8bKdsE1L7GEXcNwQPkVJvHKF2sj8I=",
+      "hash": "sha256-bfOgqT91LEsdE0IqKHmcVSqpskAcOXRnRo5pUx+LzUI=",
       "url": "index.html"
     },
     {
@@ -429,5 +441,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "pwiRP7my"
+  "version": "h+7u6jVm"
 };
