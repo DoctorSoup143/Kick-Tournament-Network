@@ -301,7 +301,7 @@
       "url": "images\/western-showdown.png"
     },
     {
-      "hash": "sha256-JCywD9sR4ZkSLlPv\/JciyPfoOxCXORrVBHVvPgOGe14=",
+      "hash": "sha256-dSAfuMXMVU35PD8bKdsE1L7GEXcNwQPkVJvHKF2sj8I=",
       "url": "index.html"
     },
     {
@@ -310,7 +310,7 @@
     },
     {
       "hash": "sha256-cmInA8gh37GIdWkN4agS6nDs7pPYPEICQV3mgkM7bpg=",
-      "url": "js\/boostrap.min.js"
+      "url": "js\/bootstrap.min.js"
     },
     {
       "hash": "sha256-MzHeUZ9aiPbmvAA1+868HOIB8GRjnT5llIP8T9baNpU=",
@@ -429,5 +429,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "tF\/+ldLD"
+  "version": "pwiRP7my"
 };
