@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "Kick Events.dll": "sha256-vT2yKhLayM+iAOC07dSryJVlCbMgNvu6XJoqd0yN3oQ=",
+      "Kick Events.dll": "sha256-61tal3AdZ00bfWQf6rku80vi8Tmj5HeWbdTVB2Nf6qE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-IRzfsdhPoYbkoPVyGWl9nbZDfmXv42bOEmIRUn6uTqM=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-wCypzIa5G5AlP6ofbVexM8NcrLk3mCazz\/qvJkUApr4=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-Vg3TrndeJD43yrWipLvpZIUkG\/gsZ3o4oeysmZMBL30=",
