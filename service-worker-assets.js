@@ -33,15 +33,15 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-WPA4QVf2qeUEBleV00pLkXw\/6VLyWqZkLV+cJOK\/6eA=",
+      "hash": "sha256-9cu8ldwdweYhFf3ChW0ChOeTUZNlAExoxaOyrRE8zsA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-dlMRqq2NKlmcv\/pUAlIttphGF48MovupHtxPc61f5t0=",
+      "hash": "sha256-Vv42Ew3N+aW9WhEoivl9wNkHpOQaxCLWJe5vkhRUVPI=",
       "url": "_framework\/Kick Events.dll"
     },
     {
-      "hash": "sha256-IRzfsdhPoYbkoPVyGWl9nbZDfmXv42bOEmIRUn6uTqM=",
+      "hash": "sha256-UOthjeTeLp5LbAjldIvkp8xOIi7M5Jpo+rRB5mx0p+w=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
@@ -141,7 +141,7 @@
       "url": "_framework\/System.Runtime.CompilerServices.Unsafe.dll"
     },
     {
-      "hash": "sha256-r\/nwxKUYompU6CHZV5n7QqCSJ8U3ks4QuQGSSg1Okfw=",
+      "hash": "sha256-JS4hvWM8S\/1MocJz5UijWzOQ0Wa4c3rO23om1VRwJx4=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -321,7 +321,7 @@
       "url": "images\/western-showdown.png"
     },
     {
-      "hash": "sha256-uMsUeagtpi14lIrrUiXsCLxtsmNN998c4T4vkxQRn1A=",
+      "hash": "sha256-l93eJAeTT62DJYhuOfZbc1\/lixf7x7\/0KfnmDhBtNd8=",
       "url": "index.html"
     },
     {
@@ -457,5 +457,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "MVJWA29t"
+  "version": "ChsfsVYS"
 };
