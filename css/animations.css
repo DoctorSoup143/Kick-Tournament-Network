@@ -21,13 +21,13 @@ Version:	1.0
 
 /* --- The first part of the stylesheet sets the initial position of the animation elements and sets their opacity and timing --- */
 .animation-element {
-    opacity: 0;
+    opacity: 1;             /* Originally Set to 0. Animation isnt working. Revert when testing original animations. */
     position: relative;
     transition: all 850ms ease;
 }
 
     .animation-element.extend {
-        width: 0;
+        /* width: 0; */
     }
 
     .animation-element.fade-in {

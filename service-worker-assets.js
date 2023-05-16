@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-f+qrMD4HRqbGKxux5JzljBEGC5HIus5fw2hwbALdyi0=",
+      "hash": "sha256-1urJ1VVUfMheS\/OBLd6Z5LP\/2ajl6u4x4WyLE71cRH8=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-ckls8Rq3CMzFuquj2z2mzPGYMyoABjBwYfUzDBMpdAw=",
+      "hash": "sha256-qBZSxN0zIB2\/IJa6f7OlEO358SsR4ro9NzeTsjSO7WI=",
       "url": "_framework\/Kick Events.dll"
     },
     {
@@ -165,7 +165,7 @@
       "url": "Config-Condensed.ttf"
     },
     {
-      "hash": "sha256-XuYfDSokEiMf4sT6D0tuJ\/QyDNMJ78ggLIkWRZCHs2U=",
+      "hash": "sha256-cyoesmNcTjB8AZVi8yXupNr\/Xuz2Ho5WKC9kXofW+8U=",
       "url": "css\/animations.css"
     },
     {
@@ -361,6 +361,10 @@
       "url": "js\/strider.js"
     },
     {
+      "hash": "sha256-y5b0kitWEk\/xnHfAUCAs0+b\/dfhQ1yzUBZAtSTwxhGw=",
+      "url": "js\/titleAnimations.js"
+    },
+    {
       "hash": "sha256-P+hS9NAmTXHnotgyyT2W6uNqJ9Pn+C5V53zymV2F4VA=",
       "url": "js\/validator.min.js"
     },
@@ -453,5 +457,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "JBzdqqrc"
+  "version": "gBXjWX2g"
 };
