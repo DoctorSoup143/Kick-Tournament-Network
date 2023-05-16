@@ -35,13 +35,13 @@ Primary Color: #E48632;
 /* Anurati Sans Font */
 @font-face {
     font-family: 'Anurati';
-    src: url('.../Anurati-Regular.otf');
+    src: url('/Anurati-Regular.otf');
 }
 
 /* Config Condensed Sans Font */
 @font-face {
     font-family: 'Config';
-    src: url('.../Config-Condensed.ttf');
+    src: url('/Config-Condensed.ttf');
 }
 
 /* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
