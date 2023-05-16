@@ -33,11 +33,11 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-zJx+LI81qlXQyp3t47RMKFIO1hLTNS3Mq4Wccl3sSRc=",
+      "hash": "sha256-Vky0Nno51hCyw4GeDpHEDktBPDFKMvUjt1ZFEs0l\/\/M=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-FmKNQcpbkFZx3xrbLCqrUtKW85ywIKtt5ZH3zat6Wro=",
+      "hash": "sha256-KFlSXX\/A1sJDsM8TsxBWP4K6wFps+9Qh6BtAkg1PnmY=",
       "url": "_framework\/Kick Events.dll"
     },
     {
@@ -165,11 +165,11 @@
       "url": "Config-Condensed.ttf"
     },
     {
-      "hash": "sha256-cswXIMUn5IfLWWgTJgcj7Dy6AND2FDMTs9x8JNu02fE=",
+      "hash": "sha256-dEdOQxONx7QEfZn0v4WFA169HWT3YRfxwRQTofcODSE=",
       "url": "css\/animations.css"
     },
     {
-      "hash": "sha256-2Cbn4N7Db2Ln0ka2nMRci0we1mRCzrOfpH6z042F0XQ=",
+      "hash": "sha256-rcdDvHnhzl\/xIzTDRUh4G7E+9OAP4tw3VRgJmJS8AVY=",
       "url": "css\/app.css"
     },
     {
@@ -283,6 +283,10 @@
     {
       "hash": "sha256-1+6DN50u3\/tBSCVGQHVMnd2LZionS1aZVTgL6+C01Hk=",
       "url": "images\/next.png"
+    },
+    {
+      "hash": "sha256-YGxfFxGCxbriEUQmBmPNiS1sMj7w6JKqxc7du0R2AOg=",
+      "url": "images\/ow2-hero.jpg"
     },
     {
       "hash": "sha256-w7i9+IIjAmEMG63RLuDXpn9mzZ6roddwW8iZmXtIYrI=",
@@ -457,5 +461,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "m9hbTEug"
+  "version": "WL\/kJEwf"
 };

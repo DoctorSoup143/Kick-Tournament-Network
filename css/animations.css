@@ -27,7 +27,7 @@ Version:	1.0
 }
 
     .animation-element.extend {
-        /* width: 0; */
+        /* width: 0; */     /* Originally uncommented. Revert when testing original animations. */
     }
 
     .animation-element.fade-in {
