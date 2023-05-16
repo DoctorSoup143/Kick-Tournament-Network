@@ -169,7 +169,7 @@
       "url": "css\/animations.css"
     },
     {
-      "hash": "sha256-HUk\/hLasWduPwLtjrgXAzuakmsOYNxYcu9MVycIbeOg=",
+      "hash": "sha256-DxaZuPwBY3CHMzC7BmRvnomQq\/Naf7\/HSh0lbFYmMAM=",
       "url": "css\/app.css"
     },
     {
@@ -453,5 +453,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "0ZCj+bdG"
+  "version": "7J2SNVh6"
 };
