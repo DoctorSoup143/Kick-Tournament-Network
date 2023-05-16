@@ -3,6 +3,19 @@
 
 <head>
 
+    <!-- Prevent Cache JS -->
+    <script type="text/javascript">
+        caches.delete("blazor-resources-/").then(function (e) {
+            console.log("'blazor-resources-/' cache deleted");
+        });
+    </script>
+
+    <!-- Prevent Cache HTML -->
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+
+
     <!-- META TAGS -->
     <meta charset="utf-8">
     <meta name="author" content="DoctorSoup143">
@@ -19,11 +32,6 @@
     <meta property="og:url" content="https://tarkovkicktournaments.com/">
     <meta name="description" content="We are a team of creators that host Exclusive Kick Tournaments for the game Escape from Tarkov who offer opportunities for content creators of all sizes to showcase their gameplay on the front page of Kick.">
     <meta name="keywords" content="tarkov, tournament, kick, doctorsoup143, tarkov tournament, tarkov events">
-
-    <!-- Prevent Cache -->
-    <meta http-equiv="Pragma" content="no-cache">
-    <meta http-equiv="Expires" content="-1">
-    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
 
     <!-- Twitter Tags -->
     <meta name="twitter:image" content="https://tarkovkicktournaments.com/images/takedown-hero.png">

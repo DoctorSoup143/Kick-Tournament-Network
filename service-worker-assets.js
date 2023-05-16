@@ -321,7 +321,7 @@
       "url": "images\/western-showdown.png"
     },
     {
-      "hash": "sha256-xJ0g8Vf\/IEWRO9VOB7SRm\/yso0pa+m+nMxizE14Hp7E=",
+      "hash": "sha256-uMsUeagtpi14lIrrUiXsCLxtsmNN998c4T4vkxQRn1A=",
       "url": "index.html"
     },
     {
@@ -457,5 +457,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "hb5iSCOr"
+  "version": "mYa7MJqB"
 };
