@@ -165,7 +165,7 @@
       "url": "Config-Condensed.ttf"
     },
     {
-      "hash": "sha256-cyoesmNcTjB8AZVi8yXupNr\/Xuz2Ho5WKC9kXofW+8U=",
+      "hash": "sha256-cswXIMUn5IfLWWgTJgcj7Dy6AND2FDMTs9x8JNu02fE=",
       "url": "css\/animations.css"
     },
     {
@@ -457,5 +457,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "mYa7MJqB"
+  "version": "MVJWA29t"
 };
