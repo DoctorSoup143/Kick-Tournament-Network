@@ -169,7 +169,7 @@
       "url": "css\/animations.css"
     },
     {
-      "hash": "sha256-rcdDvHnhzl\/xIzTDRUh4G7E+9OAP4tw3VRgJmJS8AVY=",
+      "hash": "sha256-wk44TNeV8053\/c9BUkCttbQVM69HiqIGLl9cr1vgyyE=",
       "url": "css\/app.css"
     },
     {
@@ -461,5 +461,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "x7UJHRFO"
+  "version": "rMJ+rtcg"
 };

@@ -105,6 +105,7 @@ body {
     /* 24px */
     max-width: 100%;
     overflow-x: hidden;
+    font-family: Config;
 }
 
 /* -Full width fluid container- */
@@ -120,13 +121,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Config;
+    font-family: 'Config';
 }
 
 h1 {
     font-size: 2.25rem;
     /* 36px */
-    font-family: Anurati, sans-serif;
+    font-family: 'Anurati';
     letter-spacing: 5px;
     color: #FFF;
 }
@@ -135,7 +136,6 @@ h2 {
     font-size: 2rem;
     /* 24px */
     font-weight: 500;
-    font-family: 'Config';
     color: #FFF;
 }
 
@@ -143,14 +143,12 @@ h3 {
     font-size: 1.5rem;
     /* 20px */
     font-weight: 400;
-    font-family: 'Config';
     color: #FFF;
 }
 
 h4 {
     font-size: 1.3rem;
     font-weight: 300;
-    font-family: 'Config';
     color: #FFF;
 }
 
@@ -310,6 +308,7 @@ input {
     height: 45px;
     padding-left: 10px;
     border: 1px solid #D4D4D4 !important;
+    font-family: 'Config';
 }
 
     input:focus {
@@ -334,6 +333,7 @@ textarea {
 /* -General Button Styles */
 button {
     outline: none !important;
+    font-family: 'Config';
 }
 
 .button {
@@ -519,12 +519,12 @@ button {
 /* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
 
 .navbar {
-    font-family: Config;
+    font-family: 'Config';
     color: #FFF;
 }
 
 .navbar-brand {
-    font-family: Config;
+    font-family: 'Config';
     color: #FFF;
     cursor: pointer;
     font-size: 20px;
@@ -532,29 +532,21 @@ button {
 }
 
     .navbar-brand:hover {
-        font-family: Config;
         color: #E48632;
         cursor: pointer;
     }
 
 .nav-link {
-    font-family: Config;
+    font-family: 'Config';
     color: #FFF;
     cursor: pointer;
     font-size: 18px;
 }
 
     .nav-link:hover {
-        font-family: Config;
         color: #E48632;
         cursor: pointer;
     }
-
-.active {
-    font-family: Config;
-    color: #E48632;
-    cursor: pointer;
-}
 
 
 
@@ -606,7 +598,7 @@ button {
     .game-tags li {
         display: inline;
         margin: 0 0 0 15px;
-        font-family: Raleway, sans-serif;
+        font-family: 'Config';
         font-size: 1.10rem;
         /* 20px */
         font-weight: 500;
