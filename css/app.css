@@ -610,25 +610,28 @@ button {
     font-family: 'Config';
     color: #FFF;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: .5vw;
+    transition: color 0.3s ease;
 }
 
     .navbar-brand:hover {
         color: #E48632;
         cursor: pointer;
+        text-decoration: none;
     }
 
 .nav-link {
     font-family: 'Config';
     color: #FFF;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
 }
 
     .nav-link:hover {
         color: #E48632;
         cursor: pointer;
+        text-decoration: none;
     }
 
 
